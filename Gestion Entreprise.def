@@ -8,7 +8,6 @@ CreateBitmapInfoStruct
 CreateBMPFile
 CreerCle
 Decode
-Delete
 DoContextMenu
 Draw
 EcrireValeur
@@ -49,7 +48,7 @@ SwitchView
 UpdateMenu
 CreerInterfacePunch
 CreerInterfaceEmployés
-CreerInterfacAchatse
+CreerInterfaceAchats
 CreerInterfaceProjets
 CreerInterfaceInventaire
 CreerInterfaceFournisseurs

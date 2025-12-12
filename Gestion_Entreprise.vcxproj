@@ -25,7 +25,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -53,7 +53,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
-    <TargetName>$(ProjectName)_$(PlatformTarget).$(OutputType)</TargetName>
+    <TargetName>$(ProjectName)_$(PlatformTarget)</TargetName>
     <IntDir>$(IntDirFullPath)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -150,11 +150,14 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ADODB.cpp" />
     <ClCompile Include="CodeBarre.cpp" />
     <ClCompile Include="Communs.cpp" />
     <ClCompile Include="Explorateur.cpp" />
     <ClCompile Include="Gestion Entreprise.cpp" />
     <ClCompile Include="Graphiques.cpp" />
+    <ClCompile Include="Noyau.cpp" />
+    <ClCompile Include="OperationSQL.cpp" />
     <ClCompile Include="Registre.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -165,6 +168,9 @@
     <ResourceCompile Include="Gestion Entreprise.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ADODB.h" />
+    <ClInclude Include="Noyau.h" />
+    <ClInclude Include="OperationSQL.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>

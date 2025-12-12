@@ -49,12 +49,13 @@
 #include <vdmdbg.h>
 #include <time.h>
 #include <iostream>
+#include <sqlext.h>
+#include<cstdio>
 #include "resource.h"
 
 typedef unsigned char	BYTE;
 typedef unsigned short	WORD;
 typedef unsigned long	DWORD;
-#include "resource.h"
 
 #pragma comment (lib,"ddraw.lib")
 #pragma comment(lib,"User32.lib")
@@ -63,6 +64,9 @@ typedef unsigned long	DWORD;
 #pragma comment(lib,"shlwapi.lib")
 #pragma comment(lib,"wininet.lib")
 #pragma comment(lib, "advapi32.lib")
+#pragma warning(disable:4996)
+#pragma warning(disable:2011)
+#pragma warning(disable:4005)
 
 
 #ifdef BORLANDC
@@ -232,9 +236,9 @@ enum { ERR_NONE = 0, ERR_VAR_CODE_NULL, ERR_CODE_INCOMPATIBLE, ERR_BAD_FORMAT_SI
 #define ID_ACTUALISE                    50003
 
 struct __declspec(dllexport)Erreur {
-    int numero;
-    int style;
-    char* description;
+	int numero;
+	int style;
+	char* description;
 };
 #define WS_DIALOGMOBILE WS_CHILD | WS_VISIBLE | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_VSCROLL | WS_HSCROLL| DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_SYSMENU | WS_THICKFRAME
 #define WS_DIALOG WS_CHILD | WS_VISIBLE | WS_BORDER | DS_SETFONT | DS_3DLOOK | DS_CENTER 
@@ -243,9 +247,9 @@ static const WORD cstTable128[] = { 0x0a6d,0x0d2b,0x0b2b,0x0d95,0x0a6b,0x0d35,0x
 static const short cstMargin[4][2] = { 0, 190, 0, 280, 10, 200, 2, 100 };
 static char* jours[7] = { "dimanche", "lundi","mardi","mercredi","jeudi","vendredi","samedi" };
 static char* mois[12] = { "janvier", "février","mars", "avril", "mai", "juin","juillet","aout","septembre", "octobre", "novembre", "décembre" };
-static HWND hMain,hStat,hToolbar,hTab,hFenetre1, hFenetre2, hFenetre3, hFenetre4, hFenetre5, hFenetre6, hFenetre7, 
-    hFenetre8, hFenetre9, hFenetre10,hlv,hTree;
-static WNDCLASS wc,wincl;
+static HWND hMain, hStat, hToolbar, hTab, hFenetre1, hFenetre2, hFenetre3, hFenetre4, hFenetre5, hFenetre6, hFenetre7,
+hFenetre8, hFenetre9, hFenetre10, hlv, hTree;
+static WNDCLASS wc, wincl;
 static TCITEM tie;
 static HDC hdcScreen, hdcCompatible;
 static HBITMAP hbmScreen, bmp, hbmScaled;
@@ -338,7 +342,7 @@ void InitControlRubanOutils(int nbBoutons);
 void CreerInterfaceClients();
 void CreerInterfacePunch();
 void CreerInterfaceEmployés();
-void CreerInterfacAchatse();
+void CreerInterfaceAchats();
 void CreerInterfaceProjets();
 void CreerInterfaceInventaire();
 void CreerInterfaceFournisseurs();
@@ -347,18 +351,18 @@ void CreerInterfaceComptabilité();
 void CreerInterfacePropos();
 class  __declspec(dllexport)CDlgPrintSetup {
 public:
-    CDlgPrintSetup(LPRECT);
-    ~CDlgPrintSetup();
-    int Create(HWND);
+	CDlgPrintSetup(LPRECT);
+	~CDlgPrintSetup();
+	int Create(HWND);
 
 private:
-    static BOOL CALLBACK DlgProc(HWND, UINT, WPARAM, LPARAM);
-    BOOL MsgInitDialog(HWND, WPARAM, LPARAM);
-    BOOL MsgCommand(HWND, WPARAM, LPARAM);
-    BOOL MsgVScroll(HWND, WPARAM, LPARAM);
-    BOOL MsgSysCommand(WPARAM);
-    void CmdOk(HWND);
-    HWND       m_hDlg;
-    LPRECT     m_pRect;
+	static BOOL CALLBACK DlgProc(HWND, UINT, WPARAM, LPARAM);
+	BOOL MsgInitDialog(HWND, WPARAM, LPARAM);
+	BOOL MsgCommand(HWND, WPARAM, LPARAM);
+	BOOL MsgVScroll(HWND, WPARAM, LPARAM);
+	BOOL MsgSysCommand(WPARAM);
+	void CmdOk(HWND);
+	HWND       m_hDlg;
+	LPRECT     m_pRect;
 };
 #endif // !defined(AFX_STDAFX_H__A9DB83DB_A9FD_11D0_BFD1_444553540000__INCLUDED_)

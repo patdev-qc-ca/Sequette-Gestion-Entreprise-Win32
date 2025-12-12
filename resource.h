@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // fichier Include Microsoft Visual C++.
-// Utilisé par Gestion_Entreprise.rc
+// Utilisé par Gestion Entreprise.rc
 //
 #define IDS_TITRE                       1
 #define IDC_MYICON                      2
@@ -105,6 +105,8 @@
 #define IDC_COMBO3                      1058
 #define IDC_MONTHCALENDAR1              1069
 #define AFX_IDC_PRINT                   1070
+#define IDC_SERIALDATE                  1074
+#define IDC_AJOUT_ACHAT_SELECT_TYPE     1075
 #define ID_BUTTON40001                  40001
 #define ID_BUTTON40002                  40002
 #define ID_BUTTON40003                  40003
@@ -131,9 +133,9 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
-#define _APS_NEXT_RESOURCE_VALUE        163
+#define _APS_NEXT_RESOURCE_VALUE        164
 #define _APS_NEXT_COMMAND_VALUE         40022
-#define _APS_NEXT_CONTROL_VALUE         1074
+#define _APS_NEXT_CONTROL_VALUE         1076
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
