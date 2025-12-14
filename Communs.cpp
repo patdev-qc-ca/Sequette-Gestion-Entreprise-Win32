@@ -1,7 +1,7 @@
 #include "stdafx.h"
-int MsgBox(HINSTANCE hInst, HWND hDlg, char* lpszText, char* lpszCaption, DWORD dwStyle, int lpszIcon) {
+int MsgBox(HWND hDlg, char* lpszText, char* lpszCaption, DWORD dwStyle, int lpszIcon) {
 	MSGBOXPARAMS lpmbp;
-	lpmbp.hInstance = hInst;
+	lpmbp.hInstance = wc.hInstance;
 	lpmbp.cbSize = sizeof(MSGBOXPARAMS);
 	lpmbp.hwndOwner = hDlg;
 	lpmbp.dwLanguageId = MAKELANGID(0x0800, 0x0800); //par defaut celui du systeme
@@ -12,6 +12,10 @@ int MsgBox(HINSTANCE hInst, HWND hDlg, char* lpszText, char* lpszCaption, DWORD 
 	lpmbp.lpfnMsgBoxCallback = 0;
 	return  MessageBoxIndirect(&lpmbp);
 }
+int AppMsgBox(HWND hDlg, char* lpszText, char* lpszCaption, DWORD dwStyle) {
+	return  MsgBox(hDlg, lpszText, lpszCaption, dwStyle, 0x65);
+}
+
 void errhandler(LPCTSTR Texte, HWND hwnd) {
-	MsgBox(wc.hInstance, hwnd, (char*)Texte, "Gestionnaire d'erreur", 0, 100);
+	MsgBox(hwnd, (char*)Texte, "Gestionnaire d'erreur", 0, 0x64);
 }

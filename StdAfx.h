@@ -9,6 +9,7 @@
 #if _MSC_VER > 1000
 #pragma once
 #endif // _MSC_VER > 1000
+#define DBINITCONSTANTS 
 
 #define WIN32_LEAN_AND_MEAN		// Exclude rarely-used stuff from Windows headers
 #ifdef  _WIN32
@@ -21,7 +22,6 @@
 #include <commctrl.h>
 #include <wingdi.h>
 #include <shellapi.h>
-//#include <>
 #include <windowsx.h>
 #include <stdio.h>
 #include <aclapi.h>
@@ -51,12 +51,25 @@
 #include <iostream>
 #include <sqlext.h>
 #include<cstdio>
+#include <vector>
+#include <tuple>
+#include <string>
+#define DBINITCONSTANTS 
+#include <sql.h>
+#include <oledb.h>
+#include <oledberr.h>
+#include <atlbase.h>
+#import "C:\\Program Files\\Common Files\\System\\ado\\msado15.dll" \
+   rename("EOF", "EndOfFile")  no_namespace
 #include "resource.h"
 
 typedef unsigned char	BYTE;
 typedef unsigned short	WORD;
 typedef unsigned long	DWORD;
 
+#pragma comment(lib,"ole32")
+#pragma comment(lib,"oleaut32")
+#pragma comment(lib,"odbc32")
 #pragma comment (lib,"ddraw.lib")
 #pragma comment(lib,"User32.lib")
 #pragma comment(lib,"comctl32.lib")
@@ -67,6 +80,9 @@ typedef unsigned long	DWORD;
 #pragma warning(disable:4996)
 #pragma warning(disable:2011)
 #pragma warning(disable:4005)
+#pragma warning(disable:6303)
+#pragma warning(disable:4477)
+#pragma warning(disable:6031)
 
 
 #ifdef BORLANDC
@@ -74,7 +90,6 @@ typedef unsigned long	DWORD;
 #include <ctype.h>
 #endif
 enum { ERR_NONE = 0, ERR_VAR_CODE_NULL, ERR_CODE_INCOMPATIBLE, ERR_BAD_FORMAT_SIZE, ERR_SIZE_LESS, ERR_CODE_TRUNCATE };
-
 #define IDC_TABCONTROL 1001
 #define IDB_IMAGE 102
 #define ID_TOOLBAR 5001
@@ -242,6 +257,7 @@ struct __declspec(dllexport)Erreur {
 };
 #define WS_DIALOGMOBILE WS_CHILD | WS_VISIBLE | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_VSCROLL | WS_HSCROLL| DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_SYSMENU | WS_THICKFRAME
 #define WS_DIALOG WS_CHILD | WS_VISIBLE | WS_BORDER | DS_SETFONT | DS_3DLOOK | DS_CENTER 
+static CHAR computerName[MAX_COMPUTERNAME_LENGTH + 1];
 static const WORD cstTable39[] = { 0x0a6d,0x0d2b,0x0b2b,0x0d95,0x0a6b,0x0d35,0x0b35,0x0a5b,0x0d2d,0x0b2d,0x0d4b,0x0b4b,0x0da5,0x0acb,0x0d25,0x0b25,0x0a9b,0x0d4d,0x0b4d,0x0acd,0x0d53,0x0b53,0x0da9,0x0ad3,0x0d69,0x0b69,0x0ab3,0x0d59,0x0b59,0x0ad9,0x0cab,0x09ab,0x0cd5,0x096b,0x0cb5,0x09b5,0x095b,0x0cad,0x09ad,0x096d,0x0927,0x0929,0x0949,0x0a49 };
 static const WORD cstTable128[] = { 0x0a6d,0x0d2b,0x0b2b,0x0d95,0x0a6b,0x0d35,0x0b35,0x0a5b,0x0d2d,0x0b2d,0x0d4b,0x0b4b,0x0da5,0x0acb,0x0d25,0x0b25,0x0a9b,0x0d4d,0x0b4d,0x0acd,0x0d53,0x0b53,0x0da9,0x0ad3,0x0d69,0x0b69,0x0ab3,0x0d59,0x0b59,0x0ad9,0x0cab,0x09ab,0x0cd5,0x096b,0x0cb5,0x09b5,0x095b,0x0cad,0x09ad,0x096d,0x0927,0x0929,0x0949,0x0a49 };
 static const short cstMargin[4][2] = { 0, 190, 0, 280, 10, 200, 2, 100 };
@@ -254,6 +270,7 @@ static TCITEM tie;
 static HDC hdcScreen, hdcCompatible;
 static HBITMAP hbmScreen, bmp, hbmScaled;
 static BITMAP btmp;
+
 
 //{{AFX_INSERT_LOCATION}}
 // Microsoft Visual C++ will insert additional declarations immediately before the previous line.

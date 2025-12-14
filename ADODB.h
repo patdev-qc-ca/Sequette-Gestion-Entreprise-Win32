@@ -1680,8 +1680,5 @@ virtual __declspec(dllexport)  HRESULT __stdcall GetCount(LONG* pcServers) = 0;
 virtual __declspec(dllexport)  HRESULT __stdcall GetName(LONG iServer, BSTR* pbstrName) = 0;
 virtual __declspec(dllexport)  HRESULT __stdcall GetDescription(LONG iServer, BSTR* pbstrDescription) = 0;
 	};
-	class Fonctions {
-		__declspec(dllexport)	char* ListerInstancesPhysque();
-	};
 }
 #pragma pack(pop)

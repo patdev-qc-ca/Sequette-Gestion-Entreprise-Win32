@@ -3782,7 +3782,4 @@ HRESULT ADODB::RecordsetEvents_Deprecated::FetchComplete(struct Error* pError, e
 	_com_dispatch_method(this, 0x13, DISPATCH_METHOD, VT_ERROR, (void*)&_result, L"\x0009\x4003\x0009", pError, adStatus, pRecordset);
 	return _result;
 }
-char* MsSQL::Fonctions::ListerInstancesPhysque()
-{
-	return nullptr;
-}
+

@@ -1,0 +1,1617 @@
+Microsoft (R) COFF/PE Dumper Version 14.50.35720.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Gestion Entreprise_x64.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following exports for Gestion Entreprise_x64.exe
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         642 number of functions
+         642 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000035C1 ??4CDlgPrintSetup@@QEAAAEAV0@AEBV0@@Z = @ILT+9660(??4CDlgPrintSetup@@QEAAAEAV0@AEBV0@@Z)
+          2    1 000025DB ??4Erreur@@QEAAAEAU0@$$QEAU0@@Z = @ILT+5590(??4Erreur@@QEAAAEAU0@$$QEAU0@@Z)
+          3    2 00002AAE ??4Erreur@@QEAAAEAU0@AEBU0@@Z = @ILT+6825(??4Erreur@@QEAAAEAU0@AEBU0@@Z)
+          5    3 0000130C ?AddNew@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+775(?AddNew@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+          6    4 00001D9D ?AddNew@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+3480(?AddNew@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+          7    5 00004269 ?Append@Fields@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z = @ILT+12900(?Append@Fields@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z)
+          8    6 00002955 ?Append@Fields_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z = @ILT+6480(?Append@Fields_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z)
+          9    7 00004624 ?Append@_DynaCollection@ADODB@@QEAAJPEAUIDispatch@@@Z = @ILT+13855(?Append@_DynaCollection@ADODB@@QEAAJPEAUIDispatch@@@Z)
+         10    8 00001FF0 ?AppendChunk@Field15@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+4075(?AppendChunk@Field15@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         11    9 00001023 ?AppendChunk@Field15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+30(?AppendChunk@Field15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         12    A 00001C17 ?AppendChunk@Field20@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+3090(?AppendChunk@Field20@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         13    B 00001091 ?AppendChunk@Field20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+140(?AppendChunk@Field20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         14    C 000045C5 ?AppendChunk@_Parameter@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+13760(?AppendChunk@_Parameter@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         15    D 00001410 ?AppendChunk@_Parameter_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+1035(?AppendChunk@_Parameter_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         16    E 0000365C ?BeginTrans@Connection15@ADODB@@QEAAJXZ = @ILT+9815(?BeginTrans@Connection15@ADODB@@QEAAJXZ)
+         17    F 0000217B ?BeginTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+4470(?BeginTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         18   10 0000472D ?BeginTransComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+14120(?BeginTransComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         19   11 00004D3B ?BeginTransComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+15670(?BeginTransComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         20   12 00001D75 ?BeginTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+3440(?BeginTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         21   13 00002257 ?BeginTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4690(?BeginTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         22   14 00003EDB ?Cancel@Command25@ADODB@@QEAAJXZ = @ILT+11990(?Cancel@Command25@ADODB@@QEAAJXZ)
+         23   15 00002AF4 ?Cancel@Command25_Deprecated@ADODB@@QEAAJXZ = @ILT+6895(?Cancel@Command25_Deprecated@ADODB@@QEAAJXZ)
+         24   16 00004638 ?Cancel@Recordset20@ADODB@@QEAAJXZ = @ILT+13875(?Cancel@Recordset20@ADODB@@QEAAJXZ)
+         25   17 000010EB ?Cancel@Recordset20_Deprecated@ADODB@@QEAAJXZ = @ILT+230(?Cancel@Recordset20_Deprecated@ADODB@@QEAAJXZ)
+         26   18 00003143 ?Cancel@_Connection@ADODB@@QEAAJXZ = @ILT+8510(?Cancel@_Connection@ADODB@@QEAAJXZ)
+         27   19 00003CA1 ?Cancel@_Connection_Deprecated@ADODB@@QEAAJXZ = @ILT+11420(?Cancel@_Connection_Deprecated@ADODB@@QEAAJXZ)
+         28   1A 00002AF9 ?Cancel@_Record@ADODB@@QEAAJXZ = @ILT+6900(?Cancel@_Record@ADODB@@QEAAJXZ)
+         29   1B 00004345 ?Cancel@_Record_Deprecated@ADODB@@QEAAJXZ = @ILT+13120(?Cancel@_Record_Deprecated@ADODB@@QEAAJXZ)
+         30   1C 00002D74 ?Cancel@_Stream@ADODB@@QEAAJXZ = @ILT+7535(?Cancel@_Stream@ADODB@@QEAAJXZ)
+         31   1D 0000277A ?Cancel@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+6005(?Cancel@_Stream_Deprecated@ADODB@@QEAAJXZ)
+         32   1E 00001857 ?CancelBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+2130(?CancelBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         33   1F 00003A58 ?CancelBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+10835(?CancelBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         34   20 00002A18 ?CancelUpdate@Fields@ADODB@@QEAAJXZ = @ILT+6675(?CancelUpdate@Fields@ADODB@@QEAAJXZ)
+         35   21 0000468D ?CancelUpdate@Fields_Deprecated@ADODB@@QEAAJXZ = @ILT+13960(?CancelUpdate@Fields_Deprecated@ADODB@@QEAAJXZ)
+         36   22 0000496C ?CancelUpdate@Recordset15@ADODB@@QEAAJXZ = @ILT+14695(?CancelUpdate@Recordset15@ADODB@@QEAAJXZ)
+         37   23 00002450 ?CancelUpdate@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+5195(?CancelUpdate@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+         41   24 00002EEB ?Clear@Errors@ADODB@@QEAAJXZ = @ILT+7910(?Clear@Errors@ADODB@@QEAAJXZ)
+         42   25 00002FBD ?Clone@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z = @ILT+8120(?Clone@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z)
+         43   26 00001096 ?Clone@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z = @ILT+145(?Clone@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z)
+         44   27 0000178A ?Close@Connection15@ADODB@@QEAAJXZ = @ILT+1925(?Close@Connection15@ADODB@@QEAAJXZ)
+         45   28 000048D1 ?Close@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+14540(?Close@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         46   29 00001721 ?Close@Recordset15@ADODB@@QEAAJXZ = @ILT+1820(?Close@Recordset15@ADODB@@QEAAJXZ)
+         47   2A 00001AA5 ?Close@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2720(?Close@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+         48   2B 00003418 ?Close@_Record@ADODB@@QEAAJXZ = @ILT+9235(?Close@_Record@ADODB@@QEAAJXZ)
+         49   2C 000041DD ?Close@_Record_Deprecated@ADODB@@QEAAJXZ = @ILT+12760(?Close@_Record_Deprecated@ADODB@@QEAAJXZ)
+         50   2D 00001708 ?Close@_Stream@ADODB@@QEAAJXZ = @ILT+1795(?Close@_Stream@ADODB@@QEAAJXZ)
+         51   2E 00003783 ?Close@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+10110(?Close@_Stream_Deprecated@ADODB@@QEAAJXZ)
+         52   2F 00001A87 ?CommitTrans@Connection15@ADODB@@QEAAJXZ = @ILT+2690(?CommitTrans@Connection15@ADODB@@QEAAJXZ)
+         53   30 00004809 ?CommitTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+14340(?CommitTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         54   31 00003B39 ?CommitTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+11060(?CommitTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         55   32 00003170 ?CommitTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+8555(?CommitTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         56   33 000020D1 ?CommitTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4300(?CommitTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         57   34 0000457A ?CommitTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+13685(?CommitTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         58   35 0000290A ?CompareBookmarks@Recordset20@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z = @ILT+6405(?CompareBookmarks@Recordset20@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z)
+         59   36 00002883 ?CompareBookmarks@Recordset20_Deprecated@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z = @ILT+6270(?CompareBookmarks@Recordset20_Deprecated@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z)
+         60   37 00003332 ?ConnectComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+9005(?ConnectComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         61   38 00002A04 ?ConnectComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+6655(?ConnectComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         62   39 00003FB7 ?ConnectComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+12210(?ConnectComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         63   3A 0000452A ?ConnectComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+13605(?ConnectComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         64   3B 00004EF8 ?CopyRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z = @ILT+16115(?CopyRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z)
+         65   3C 00004944 ?CopyRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z = @ILT+14655(?CopyRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z)
+         66   3D 00002C5C ?CopyTo@_Stream@ADODB@@QEAAJPEAU12@J@Z = @ILT+7255(?CopyTo@_Stream@ADODB@@QEAAJPEAU12@J@Z)
+         67   3E 000035F8 ?CopyTo@_Stream_Deprecated@ADODB@@QEAAJPEAU12@J@Z = @ILT+9715(?CopyTo@_Stream_Deprecated@ADODB@@QEAAJPEAU12@J@Z)
+         70   3F 00002004 ?CreateParameter@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z = @ILT+4095(?CreateParameter@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z)
+         71   40 00002563 ?CreateParameter@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z = @ILT+5470(?CreateParameter@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z)
+         83   41 00004C8C ?Delete@Fields20@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+15495(?Delete@Fields20@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         84   42 00002F45 ?Delete@Fields20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+8000(?Delete@Fields20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         85   43 00003477 ?Delete@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+9330(?Delete@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         86   44 0000270C ?Delete@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+5895(?Delete@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         87   45 000015AA ?Delete@_DynaCollection@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+1445(?Delete@_DynaCollection@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         88   46 00003F76 ?DeleteRecord@_Record@ADODB@@QEAAJV_bstr_t@@F@Z = @ILT+12145(?DeleteRecord@_Record@ADODB@@QEAAJV_bstr_t@@F@Z)
+         89   47 00002504 ?DeleteRecord@_Record_Deprecated@ADODB@@QEAAJV_bstr_t@@F@Z = @ILT+5375(?DeleteRecord@_Record_Deprecated@ADODB@@QEAAJV_bstr_t@@F@Z)
+         90   48 00002C39 ?Disconnect@ConnectionEvents@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+7220(?Disconnect@ConnectionEvents@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         91   49 00003878 ?Disconnect@ConnectionEventsVt@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+10355(?Disconnect@ConnectionEventsVt@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         92   4A 00002275 ?Disconnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4720(?Disconnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         93   4B 00003DB4 ?Disconnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+11695(?Disconnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         98   4C 000020E0 ?EndOfRecordset@RecordsetEvents@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4315(?EndOfRecordset@RecordsetEvents@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+         99   4D 00002239 ?EndOfRecordset@RecordsetEventsVt@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4660(?EndOfRecordset@RecordsetEventsVt@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        100   4E 000032FB ?EndOfRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+8950(?EndOfRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        101   4F 00002734 ?EndOfRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+5935(?EndOfRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        103   50 00003D7D ?Execute@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z = @ILT+11640(?Execute@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z)
+        104   51 000011FE ?Execute@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z = @ILT+505(?Execute@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z)
+        105   52 00002545 ?Execute@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z = @ILT+5440(?Execute@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z)
+        106   53 000036DE ?Execute@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z = @ILT+9945(?Execute@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z)
+        107   54 00001037 ?ExecuteComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+50(?ExecuteComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        108   55 00004728 ?ExecuteComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+14115(?ExecuteComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        109   56 00003558 ?ExecuteComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+9555(?ExecuteComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        110   57 00004E8F ?ExecuteComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+16010(?ExecuteComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        112   58 000023E7 ?FetchComplete@RecordsetEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+5090(?FetchComplete@RecordsetEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        113   59 00001C3A ?FetchComplete@RecordsetEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3125(?FetchComplete@RecordsetEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        114   5A 000019DD ?FetchComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+2520(?FetchComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        115   5B 000034E0 ?FetchComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+9435(?FetchComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        116   5C 00003BD4 ?FetchProgress@RecordsetEvents@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+11215(?FetchProgress@RecordsetEvents@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        117   5D 00004C82 ?FetchProgress@RecordsetEventsVt@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+15485(?FetchProgress@RecordsetEventsVt@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        118   5E 00002987 ?FetchProgress@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+6530(?FetchProgress@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        119   5F 00003BC0 ?FetchProgress@RecordsetEvents_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11195(?FetchProgress@RecordsetEvents_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        120   60 000016B8 ?FieldChangeComplete@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+1715(?FieldChangeComplete@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        121   61 0000341D ?FieldChangeComplete@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+9240(?FieldChangeComplete@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        122   62 00002748 ?FieldChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+5955(?FieldChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        123   63 000045B6 ?FieldChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+13745(?FieldChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        124   64 000019C9 ?Find@Recordset15@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z = @ILT+2500(?Find@Recordset15@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z)
+        125   65 00002AD1 ?Find@Recordset15_Deprecated@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z = @ILT+6860(?Find@Recordset15_Deprecated@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z)
+        126   66 00004E67 ?Flush@_Stream@ADODB@@QEAAJXZ = @ILT+15970(?Flush@_Stream@ADODB@@QEAAJXZ)
+        127   67 00003553 ?Flush@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+9550(?Flush@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        128   68 0000188E ?GetAbsolutePage@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ = @ILT+2185(?GetAbsolutePage@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ)
+        129   69 00002365 ?GetAbsolutePage@Recordset15_Deprecated@ADODB@@QEAA?AW4PositionEnum@@XZ = @ILT+4960(?GetAbsolutePage@Recordset15_Deprecated@ADODB@@QEAA?AW4PositionEnum@@XZ)
+        130   6A 00004C69 ?GetAbsolutePosition@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ = @ILT+15460(?GetAbsolutePosition@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ)
+        131   6B 00002B30 ?GetActiveCommand@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+6955(?GetActiveCommand@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        132   6C 000031DE ?GetActiveCommand@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+8665(?GetActiveCommand@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        133   6D 00004D5E ?GetActiveConnection@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection@ADODB@@$1?_GUID_00001550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+15705(?GetActiveConnection@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection@ADODB@@$1?_GUID_00001550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        134   6E 0000263A ?GetActiveConnection@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection_Deprecated@ADODB@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5685(?GetActiveConnection@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection_Deprecated@ADODB@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        135   6F 000012F8 ?GetActiveConnection@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+755(?GetActiveConnection@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        136   70 00004BF6 ?GetActiveConnection@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+15345(?GetActiveConnection@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        137   71 000026BC ?GetActiveConnection@_Record@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+5815(?GetActiveConnection@_Record@ADODB@@QEAA?AV_variant_t@@XZ)
+        138   72 00003215 ?GetActiveConnection@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8720(?GetActiveConnection@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        139   73 00003503 ?GetActualSize@Field15@ADODB@@QEAAJXZ = @ILT+9470(?GetActualSize@Field15@ADODB@@QEAAJXZ)
+        140   74 0000371A ?GetActualSize@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+10005(?GetActualSize@Field15_Deprecated@ADODB@@QEAAJXZ)
+        141   75 000042E6 ?GetActualSize@Field20@ADODB@@QEAAJXZ = @ILT+13025(?GetActualSize@Field20@ADODB@@QEAAJXZ)
+        142   76 00003058 ?GetActualSize@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+8275(?GetActualSize@Field20_Deprecated@ADODB@@QEAAJXZ)
+        146   77 000038FF ?GetAttributes@Connection15@ADODB@@QEAAJXZ = @ILT+10490(?GetAttributes@Connection15@ADODB@@QEAAJXZ)
+        147   78 00004485 ?GetAttributes@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+13440(?GetAttributes@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        148   79 00001F05 ?GetAttributes@Field15@ADODB@@QEAAJXZ = @ILT+3840(?GetAttributes@Field15@ADODB@@QEAAJXZ)
+        149   7A 00001041 ?GetAttributes@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+60(?GetAttributes@Field15_Deprecated@ADODB@@QEAAJXZ)
+        150   7B 000030E9 ?GetAttributes@Field20@ADODB@@QEAAJXZ = @ILT+8420(?GetAttributes@Field20@ADODB@@QEAAJXZ)
+        151   7C 00002D1F ?GetAttributes@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+7450(?GetAttributes@Field20_Deprecated@ADODB@@QEAAJXZ)
+        152   7D 000010FF ?GetAttributes@Property@ADODB@@QEAAJXZ = @ILT+250(?GetAttributes@Property@ADODB@@QEAAJXZ)
+        153   7E 00001587 ?GetAttributes@_Parameter@ADODB@@QEAAJXZ = @ILT+1410(?GetAttributes@_Parameter@ADODB@@QEAAJXZ)
+        154   7F 00001E3D ?GetAttributes@_Parameter_Deprecated@ADODB@@QEAAJXZ = @ILT+3640(?GetAttributes@_Parameter_Deprecated@ADODB@@QEAAJXZ)
+        155   80 00003544 ?GetBOF@Recordset15@ADODB@@QEAAFXZ = @ILT+9535(?GetBOF@Recordset15@ADODB@@QEAAFXZ)
+        156   81 0000439A ?GetBOF@Recordset15_Deprecated@ADODB@@QEAAFXZ = @ILT+13205(?GetBOF@Recordset15_Deprecated@ADODB@@QEAAFXZ)
+        157   82 00001276 ?GetBookmark@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+625(?GetBookmark@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        158   83 00002DCE ?GetBookmark@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+7625(?GetBookmark@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        159   84 00004A25 ?GetCacheSize@Recordset15@ADODB@@QEAAJXZ = @ILT+14880(?GetCacheSize@Recordset15@ADODB@@QEAAJXZ)
+        160   85 00002EDC ?GetCacheSize@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+7895(?GetCacheSize@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        161   86 00003968 ?GetChapter@ADORecordsetConstruction@ADODB@@QEAAJXZ = @ILT+10595(?GetChapter@ADORecordsetConstruction@ADODB@@QEAAJXZ)
+        162   87 00001FB9 ?GetCharset@_Stream@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4020(?GetCharset@_Stream@ADODB@@QEAA?AV_bstr_t@@XZ)
+        163   88 00004741 ?GetCharset@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14140(?GetCharset@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        164   89 00002621 ?GetChildren@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5660(?GetChildren@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        165   8A 00002E82 ?GetChildren@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+7805(?GetChildren@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        166   8B 00004C32 ?GetChunk@Field15@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+15405(?GetChunk@Field15@ADODB@@QEAA?AV_variant_t@@J@Z)
+        167   8C 0000443A ?GetChunk@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+13365(?GetChunk@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        168   8D 00001988 ?GetChunk@Field20@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+2435(?GetChunk@Field20@ADODB@@QEAA?AV_variant_t@@J@Z)
+        169   8E 000037AB ?GetChunk@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+10150(?GetChunk@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        171   8F 000015FF ?GetCollect@Recordset15@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z = @ILT+1530(?GetCollect@Recordset15@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z)
+        172   90 000024AF ?GetCollect@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z = @ILT+5290(?GetCollect@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z)
+        173   91 00004872 ?GetCommandStream@_Command@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+14445(?GetCommandStream@_Command@ADODB@@QEAA?AV_variant_t@@XZ)
+        174   92 000044E9 ?GetCommandStream@_Command_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+13540(?GetCommandStream@_Command_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        175   93 00004976 ?GetCommandText@Command15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14705(?GetCommandText@Command15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        176   94 000031CF ?GetCommandText@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+8650(?GetCommandText@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        177   95 000024EB ?GetCommandTimeout@Command15@ADODB@@QEAAJXZ = @ILT+5350(?GetCommandTimeout@Command15@ADODB@@QEAAJXZ)
+        178   96 00002F36 ?GetCommandTimeout@Command15_Deprecated@ADODB@@QEAAJXZ = @ILT+7985(?GetCommandTimeout@Command15_Deprecated@ADODB@@QEAAJXZ)
+        179   97 0000411F ?GetCommandTimeout@Connection15@ADODB@@QEAAJXZ = @ILT+12570(?GetCommandTimeout@Connection15@ADODB@@QEAAJXZ)
+        180   98 00004417 ?GetCommandTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+13330(?GetCommandTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        181   99 000034CC ?GetCommandType@Command15@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ = @ILT+9415(?GetCommandType@Command15@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ)
+        182   9A 00003701 ?GetCommandType@Command15_Deprecated@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ = @ILT+9980(?GetCommandType@Command15_Deprecated@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ)
+        183   9B 00001C99 ?GetConnectionString@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+3220(?GetConnectionString@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        184   9C 00003BD9 ?GetConnectionString@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11220(?GetConnectionString@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        185   9D 00003EB3 ?GetConnectionTimeout@Connection15@ADODB@@QEAAJXZ = @ILT+11950(?GetConnectionTimeout@Connection15@ADODB@@QEAAJXZ)
+        186   9E 00003F2B ?GetConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+12070(?GetConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        187   9F 00003F17 ?GetCount@_Collection@ADODB@@QEAAJXZ = @ILT+12050(?GetCount@_Collection@ADODB@@QEAAJXZ)
+        188   A0 000020B3 ?GetCursorLocation@Connection15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+4270(?GetCursorLocation@Connection15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        189   A1 00004228 ?GetCursorLocation@Connection15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+12835(?GetCursorLocation@Connection15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        190   A2 000016FE ?GetCursorLocation@Recordset15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+1785(?GetCursorLocation@Recordset15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        191   A3 00004D72 ?GetCursorLocation@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+15725(?GetCursorLocation@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        192   A4 0000416F ?GetCursorType@Recordset15@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ = @ILT+12650(?GetCursorType@Recordset15@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ)
+        193   A5 00001FC8 ?GetCursorType@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ = @ILT+4035(?GetCursorType@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ)
+        194   A6 00002018 ?GetDSO@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4115(?GetDSO@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        195   A7 000026D0 ?GetDataFormat@Field20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+5835(?GetDataFormat@Field20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        196   A8 00003FCB ?GetDataFormat@Field20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+12230(?GetDataFormat@Field20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        197   A9 00003B6B ?GetDataMember@Recordset20@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11110(?GetDataMember@Recordset20@ADODB@@QEAA?AV_bstr_t@@XZ)
+        198   AA 00004255 ?GetDataMember@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12880(?GetDataMember@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        199   AB 00002DA6 ?GetDataSource@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7585(?GetDataSource@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        200   AC 0000222F ?GetDataSource@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4650(?GetDataSource@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        201   AD 000040F7 ?GetDefaultDatabase@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12530(?GetDefaultDatabase@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        202   AE 000020FE ?GetDefaultDatabase@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4345(?GetDefaultDatabase@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        203   AF 00002BE9 ?GetDefinedSize@Field15@ADODB@@QEAAJXZ = @ILT+7140(?GetDefinedSize@Field15@ADODB@@QEAAJXZ)
+        204   B0 000046C4 ?GetDefinedSize@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+14015(?GetDefinedSize@Field15_Deprecated@ADODB@@QEAAJXZ)
+        205   B1 00002630 ?GetDefinedSize@Field20@ADODB@@QEAAJXZ = @ILT+5675(?GetDefinedSize@Field20@ADODB@@QEAAJXZ)
+        206   B2 00004A61 ?GetDefinedSize@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+14940(?GetDefinedSize@Field20_Deprecated@ADODB@@QEAAJXZ)
+        207   B3 0000111D ?GetDescription@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+280(?GetDescription@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        208   B4 00003F08 ?GetDialect@_Command@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12035(?GetDialect@_Command@ADODB@@QEAA?AV_bstr_t@@XZ)
+        209   B5 000035D5 ?GetDialect@_Command_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+9680(?GetDialect@_Command_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        210   B6 00004E0D ?GetDirection@_Parameter@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ = @ILT+15880(?GetDirection@_Parameter@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ)
+        211   B7 00001703 ?GetDirection@_Parameter_Deprecated@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ = @ILT+1790(?GetDirection@_Parameter_Deprecated@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ)
+        212   B8 00002E96 ?GetEOS@_Stream@ADODB@@QEAAFXZ = @ILT+7825(?GetEOS@_Stream@ADODB@@QEAAFXZ)
+        213   B9 00002E3C ?GetEOS@_Stream_Deprecated@ADODB@@QEAAFXZ = @ILT+7735(?GetEOS@_Stream_Deprecated@ADODB@@QEAAFXZ)
+        214   BA 0000154B ?GetEditMode@Recordset15@ADODB@@QEAA?AW4EditModeEnum@2@XZ = @ILT+1350(?GetEditMode@Recordset15@ADODB@@QEAA?AW4EditModeEnum@2@XZ)
+        215   BB 000017DA ?GetEditMode@Recordset15_Deprecated@ADODB@@QEAA?AW4EditModeEnum@2@XZ = @ILT+2005(?GetEditMode@Recordset15_Deprecated@ADODB@@QEAA?AW4EditModeEnum@2@XZ)
+        216   BC 00002B76 ?GetEndOfFile@Recordset15@ADODB@@QEAAFXZ = @ILT+7025(?GetEndOfFile@Recordset15@ADODB@@QEAAFXZ)
+        217   BD 00001578 ?GetEndOfFile@Recordset15_Deprecated@ADODB@@QEAAFXZ = @ILT+1395(?GetEndOfFile@Recordset15_Deprecated@ADODB@@QEAAFXZ)
+        218   BE 00001771 ?GetErrors@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+1900(?GetErrors@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        219   BF 00004A39 ?GetErrors@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+14900(?GetErrors@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        220   C0 00002333 ?GetFields@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+4910(?GetFields@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        221   C1 000023D3 ?GetFields@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5070(?GetFields@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        222   C2 0000125D ?GetFields@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+600(?GetFields@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        223   C3 00003AB7 ?GetFields@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+10930(?GetFields@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        224   C4 000032E7 ?GetFilter@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8930(?GetFilter@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        225   C5 000012BC ?GetFilter@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+695(?GetFilter@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        226   C6 00001F50 ?GetHelpContext@Error@ADODB@@QEAAJXZ = @ILT+3915(?GetHelpContext@Error@ADODB@@QEAAJXZ)
+        227   C7 000049A3 ?GetHelpFile@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14750(?GetHelpFile@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        228   C8 00004A11 ?GetIndex@Recordset21@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14860(?GetIndex@Recordset21@ADODB@@QEAA?AV_bstr_t@@XZ)
+        229   C9 00002342 ?GetIndex@Recordset21_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4925(?GetIndex@Recordset21_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        230   CA 00001884 ?GetIsolationLevel@Connection15@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ = @ILT+2175(?GetIsolationLevel@Connection15@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ)
+        231   CB 00001677 ?GetIsolationLevel@Connection15_Deprecated@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ = @ILT+1650(?GetIsolationLevel@Connection15_Deprecated@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ)
+        232   CC 000017E9 ?GetItem@Errors@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UError@ADODB@@$1?_GUID_00000500_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+2020(?GetItem@Errors@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UError@ADODB@@$1?_GUID_00000500_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        233   CD 00002DDD ?GetItem@Fields15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField@ADODB@@$1?_GUID_00001569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+7640(?GetItem@Fields15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField@ADODB@@$1?_GUID_00001569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        234   CE 00004AED ?GetItem@Fields15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField_Deprecated@ADODB@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+15080(?GetItem@Fields15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField_Deprecated@ADODB@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        235   CF 00002E4B ?GetItem@Parameters@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+7750(?GetItem@Parameters@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        236   D0 00001901 ?GetItem@Parameters_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+2300(?GetItem@Parameters_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        237   D1 00004B65 ?GetLineSeparator@_Stream@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ = @ILT+15200(?GetLineSeparator@_Stream@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ)
+        238   D2 00002509 ?GetLineSeparator@_Stream_Deprecated@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ = @ILT+5380(?GetLineSeparator@_Stream_Deprecated@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ)
+        239   D3 00001F73 ?GetLockType@Recordset15@ADODB@@QEAA?AW4LockTypeEnum@2@XZ = @ILT+3950(?GetLockType@Recordset15@ADODB@@QEAA?AW4LockTypeEnum@2@XZ)
+        240   D4 00003EEA ?GetLockType@Recordset15_Deprecated@ADODB@@QEAA?AW4LockTypeEnum@2@XZ = @ILT+12005(?GetLockType@Recordset15_Deprecated@ADODB@@QEAA?AW4LockTypeEnum@2@XZ)
+        241   D5 000043C2 ?GetMarshalOptions@Recordset15@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ = @ILT+13245(?GetMarshalOptions@Recordset15@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ)
+        242   D6 00001294 ?GetMarshalOptions@Recordset15_Deprecated@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ = @ILT+655(?GetMarshalOptions@Recordset15_Deprecated@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ)
+        243   D7 00003AF3 ?GetMaxRecords@Recordset15@ADODB@@QEAAJXZ = @ILT+10990(?GetMaxRecords@Recordset15@ADODB@@QEAAJXZ)
+        244   D8 00001906 ?GetMaxRecords@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2305(?GetMaxRecords@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        246   D9 000029D7 ?GetMode@Connection15@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+6610(?GetMode@Connection15@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        247   DA 00001D11 ?GetMode@Connection15_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+3340(?GetMode@Connection15_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        248   DB 00002CC5 ?GetMode@_Record@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+7360(?GetMode@_Record@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        249   DC 00004D4F ?GetMode@_Record_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+15690(?GetMode@_Record_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        250   DD 000018C0 ?GetMode@_Stream@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+2235(?GetMode@_Stream@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        251   DE 00002572 ?GetMode@_Stream_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+5485(?GetMode@_Stream_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        252   DF 00003A4E ?GetName@Command15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+10825(?GetName@Command15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        253   E0 00003A21 ?GetName@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+10780(?GetName@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        254   E1 00004656 ?GetName@Field15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13905(?GetName@Field15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        255   E2 000025FE ?GetName@Field15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+5625(?GetName@Field15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        256   E3 0000200E ?GetName@Field20@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4105(?GetName@Field20@ADODB@@QEAA?AV_bstr_t@@XZ)
+        257   E4 00002F7C ?GetName@Field20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+8055(?GetName@Field20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        258   E5 00003C5B ?GetName@Property@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11350(?GetName@Property@ADODB@@QEAA?AV_bstr_t@@XZ)
+        259   E6 000014B0 ?GetName@_Parameter@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+1195(?GetName@_Parameter@ADODB@@QEAA?AV_bstr_t@@XZ)
+        260   E7 000047E1 ?GetName@_Parameter_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14300(?GetName@_Parameter_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        261   E8 000036B6 ?GetNamedParameters@_Command@ADODB@@QEAAFXZ = @ILT+9905(?GetNamedParameters@_Command@ADODB@@QEAAFXZ)
+        262   E9 00003EC2 ?GetNamedParameters@_Command_Deprecated@ADODB@@QEAAFXZ = @ILT+11965(?GetNamedParameters@_Command_Deprecated@ADODB@@QEAAFXZ)
+        263   EA 00001FFF ?GetNativeError@Error@ADODB@@QEAAJXZ = @ILT+4090(?GetNativeError@Error@ADODB@@QEAAJXZ)
+        264   EB 000042AF ?GetNumber@Error@ADODB@@QEAAJXZ = @ILT+12970(?GetNumber@Error@ADODB@@QEAAJXZ)
+        265   EC 0000416A ?GetNumericScale@Field15@ADODB@@QEAAEXZ = @ILT+12645(?GetNumericScale@Field15@ADODB@@QEAAEXZ)
+        266   ED 00004E5D ?GetNumericScale@Field15_Deprecated@ADODB@@QEAAEXZ = @ILT+15960(?GetNumericScale@Field15_Deprecated@ADODB@@QEAAEXZ)
+        267   EE 00002658 ?GetNumericScale@Field20@ADODB@@QEAAEXZ = @ILT+5715(?GetNumericScale@Field20@ADODB@@QEAAEXZ)
+        268   EF 000034FE ?GetNumericScale@Field20_Deprecated@ADODB@@QEAAEXZ = @ILT+9465(?GetNumericScale@Field20_Deprecated@ADODB@@QEAAEXZ)
+        269   F0 0000466A ?GetNumericScale@_Parameter@ADODB@@QEAAEXZ = @ILT+13925(?GetNumericScale@_Parameter@ADODB@@QEAAEXZ)
+        270   F1 00003CBA ?GetNumericScale@_Parameter_Deprecated@ADODB@@QEAAEXZ = @ILT+11445(?GetNumericScale@_Parameter_Deprecated@ADODB@@QEAAEXZ)
+        271   F2 00002081 ?GetOLEDBCommand@ADOCommandConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4220(?GetOLEDBCommand@ADOCommandConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        272   F3 000044CB ?GetOriginalValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+13510(?GetOriginalValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        273   F4 00001D7A ?GetOriginalValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+3445(?GetOriginalValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        274   F5 00003B43 ?GetOriginalValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+11070(?GetOriginalValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        275   F6 00001370 ?GetOriginalValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+875(?GetOriginalValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        276   F7 000036A7 ?GetPageCount@Recordset15@ADODB@@QEAAJXZ = @ILT+9890(?GetPageCount@Recordset15@ADODB@@QEAAJXZ)
+        277   F8 00001924 ?GetPageCount@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2335(?GetPageCount@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        278   F9 00003B02 ?GetPageSize@Recordset15@ADODB@@QEAAJXZ = @ILT+11005(?GetPageSize@Recordset15@ADODB@@QEAAJXZ)
+        279   FA 00001591 ?GetPageSize@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+1420(?GetPageSize@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        280   FB 00003193 ?GetParameters@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters@ADODB@@$1?_GUID_0000150d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+8590(?GetParameters@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters@ADODB@@$1?_GUID_0000150d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        281   FC 00001F64 ?GetParameters@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters_Deprecated@ADODB@@$1?_GUID_0000050d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+3935(?GetParameters@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters_Deprecated@ADODB@@$1?_GUID_0000050d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        282   FD 000029B4 ?GetParentURL@_Record@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+6575(?GetParentURL@_Record@ADODB@@QEAA?AV_bstr_t@@XZ)
+        283   FE 00003463 ?GetParentURL@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+9310(?GetParentURL@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        284   FF 000027D9 ?GetPosition@_Stream@ADODB@@QEAAJXZ = @ILT+6100(?GetPosition@_Stream@ADODB@@QEAAJXZ)
+        285  100 00003300 ?GetPosition@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+8955(?GetPosition@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        286  101 00003AE4 ?GetPrecision@Field15@ADODB@@QEAAEXZ = @ILT+10975(?GetPrecision@Field15@ADODB@@QEAAEXZ)
+        287  102 00003152 ?GetPrecision@Field15_Deprecated@ADODB@@QEAAEXZ = @ILT+8525(?GetPrecision@Field15_Deprecated@ADODB@@QEAAEXZ)
+        288  103 00003B1B ?GetPrecision@Field20@ADODB@@QEAAEXZ = @ILT+11030(?GetPrecision@Field20@ADODB@@QEAAEXZ)
+        289  104 0000373D ?GetPrecision@Field20_Deprecated@ADODB@@QEAAEXZ = @ILT+10040(?GetPrecision@Field20_Deprecated@ADODB@@QEAAEXZ)
+        290  105 00002E5A ?GetPrecision@_Parameter@ADODB@@QEAAEXZ = @ILT+7765(?GetPrecision@_Parameter@ADODB@@QEAAEXZ)
+        291  106 00001F69 ?GetPrecision@_Parameter_Deprecated@ADODB@@QEAAEXZ = @ILT+3940(?GetPrecision@_Parameter_Deprecated@ADODB@@QEAAEXZ)
+        292  107 00003D3C ?GetPrepared@Command15@ADODB@@QEAAFXZ = @ILT+11575(?GetPrepared@Command15@ADODB@@QEAAFXZ)
+        293  108 000028BA ?GetPrepared@Command15_Deprecated@ADODB@@QEAAFXZ = @ILT+6325(?GetPrepared@Command15_Deprecated@ADODB@@QEAAFXZ)
+        294  109 00001DF2 ?GetProvider@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+3565(?GetProvider@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        295  10A 000039B3 ?GetProvider@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+10670(?GetProvider@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        296  10B 00004DEA ?GetRecordCount@Recordset15@ADODB@@QEAAJXZ = @ILT+15845(?GetRecordCount@Recordset15@ADODB@@QEAAJXZ)
+        297  10C 00001F23 ?GetRecordCount@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+3870(?GetRecordCount@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        298  10D 00004241 ?GetRecordType@_Record@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ = @ILT+12860(?GetRecordType@_Record@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ)
+        299  10E 00003AD5 ?GetRecordType@_Record_Deprecated@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ = @ILT+10960(?GetRecordType@_Record_Deprecated@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ)
+        300  10F 00002D7E ?GetRow@ADORecordConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7545(?GetRow@ADORecordConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        301  110 0000343B ?GetRowPosition@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+9270(?GetRowPosition@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        302  111 00001EAB ?GetRows@Recordset15@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z = @ILT+3750(?GetRows@Recordset15@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z)
+        303  112 0000213A ?GetRows@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z = @ILT+4405(?GetRows@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z)
+        304  113 00004304 ?GetRowset@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+13055(?GetRowset@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        305  114 00003FE4 ?GetSQLState@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12255(?GetSQLState@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        306  115 00001DE8 ?GetSession@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+3555(?GetSession@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        307  116 00004705 ?GetSize@_Parameter@ADODB@@QEAAJXZ = @ILT+14080(?GetSize@_Parameter@ADODB@@QEAAJXZ)
+        308  117 0000352B ?GetSize@_Parameter_Deprecated@ADODB@@QEAAJXZ = @ILT+9510(?GetSize@_Parameter_Deprecated@ADODB@@QEAAJXZ)
+        309  118 00001523 ?GetSize@_Stream@ADODB@@QEAAJXZ = @ILT+1310(?GetSize@_Stream@ADODB@@QEAAJXZ)
+        310  119 00002DF1 ?GetSize@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+7660(?GetSize@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        311  11A 00004327 ?GetSort@Recordset15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13090(?GetSort@Recordset15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        312  11B 0000420A ?GetSort@Recordset15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12805(?GetSort@Recordset15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        313  11C 000036E3 ?GetSource@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+9950(?GetSource@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        314  11D 00003733 ?GetSource@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+10030(?GetSource@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        315  11E 00002F3B ?GetSource@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+7990(?GetSource@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        316  11F 000027C5 ?GetSource@_Record@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+6080(?GetSource@_Record@ADODB@@QEAA?AV_variant_t@@XZ)
+        317  120 00003DFA ?GetSource@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+11765(?GetSource@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        318  121 00002CC0 ?GetState@Command25@ADODB@@QEAAJXZ = @ILT+7355(?GetState@Command25@ADODB@@QEAAJXZ)
+        319  122 00001A55 ?GetState@Command25_Deprecated@ADODB@@QEAAJXZ = @ILT+2640(?GetState@Command25_Deprecated@ADODB@@QEAAJXZ)
+        320  123 00001BBD ?GetState@Connection15@ADODB@@QEAAJXZ = @ILT+3000(?GetState@Connection15@ADODB@@QEAAJXZ)
+        321  124 00001E88 ?GetState@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+3715(?GetState@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        322  125 000046F6 ?GetState@Recordset15@ADODB@@QEAAJXZ = @ILT+14065(?GetState@Recordset15@ADODB@@QEAAJXZ)
+        323  126 00004318 ?GetState@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+13075(?GetState@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        324  127 00004A57 ?GetState@_Record@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+14930(?GetState@_Record@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        325  128 00002F6D ?GetState@_Record_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+8040(?GetState@_Record_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        326  129 0000213F ?GetState@_Stream@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+4410(?GetState@_Stream@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        327  12A 000039D1 ?GetState@_Stream_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+10700(?GetState@_Stream_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        328  12B 0000440D ?GetStatus@Field@ADODB@@QEAAJXZ = @ILT+13320(?GetStatus@Field@ADODB@@QEAAJXZ)
+        329  12C 000019B5 ?GetStatus@Field_Deprecated@ADODB@@QEAAJXZ = @ILT+2480(?GetStatus@Field_Deprecated@ADODB@@QEAAJXZ)
+        330  12D 00003521 ?GetStatus@Recordset15@ADODB@@QEAAJXZ = @ILT+9500(?GetStatus@Recordset15@ADODB@@QEAAJXZ)
+        331  12E 00003931 ?GetStatus@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+10540(?GetStatus@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        332  12F 00002C48 ?GetStayInSync@Recordset20@ADODB@@QEAAFXZ = @ILT+7235(?GetStayInSync@Recordset20@ADODB@@QEAAFXZ)
+        333  130 00002252 ?GetStayInSync@Recordset20_Deprecated@ADODB@@QEAAFXZ = @ILT+4685(?GetStayInSync@Recordset20_Deprecated@ADODB@@QEAAFXZ)
+        334  131 000044F3 ?GetStream@ADOStreamConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+13550(?GetStream@ADOStreamConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        335  132 00002E69 ?GetString@Recordset20@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z = @ILT+7780(?GetString@Recordset20@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z)
+        336  133 00002202 ?GetString@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z = @ILT+4605(?GetString@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z)
+        338  134 00004C96 ?GetType@Field15@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+15505(?GetType@Field15@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        339  135 00004930 ?GetType@Field15_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+14635(?GetType@Field15_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        340  136 00002AB3 ?GetType@Field20@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+6830(?GetType@Field20@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        341  137 00001ABE ?GetType@Field20_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+2745(?GetType@Field20_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        342  138 00002C16 ?GetType@Property@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+7185(?GetType@Property@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        343  139 000011E5 ?GetType@_Parameter@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+480(?GetType@_Parameter@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        344  13A 00004598 ?GetType@_Parameter_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+13715(?GetType@_Parameter_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        345  13B 00001875 ?GetType@_Stream@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ = @ILT+2160(?GetType@_Stream@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ)
+        346  13C 000019F6 ?GetType@_Stream_Deprecated@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ = @ILT+2545(?GetType@_Stream_Deprecated@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ)
+        347  13D 00003F0D ?GetUnderlyingValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+12040(?GetUnderlyingValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        348  13E 000022BB ?GetUnderlyingValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+4790(?GetUnderlyingValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        349  13F 00003A6C ?GetUnderlyingValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+10855(?GetUnderlyingValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        350  140 0000115E ?GetUnderlyingValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+345(?GetUnderlyingValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        351  141 000044D0 ?GetValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+13515(?GetValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        352  142 00002455 ?GetValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+5200(?GetValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        353  143 00004A0C ?GetValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+14855(?GetValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        354  144 000030C1 ?GetValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8380(?GetValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        355  145 00001EBA ?GetValue@Property@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+3765(?GetValue@Property@ADODB@@QEAA?AV_variant_t@@XZ)
+        356  146 0000376A ?GetValue@_Parameter@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+10085(?GetValue@_Parameter@ADODB@@QEAA?AV_variant_t@@XZ)
+        357  147 00002EAA ?GetValue@_Parameter_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+7845(?GetValue@_Parameter_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        358  148 00004A7F ?GetVersion@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14970(?GetVersion@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        359  149 00002CDE ?GetVersion@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+7385(?GetVersion@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        360  14A 00002441 ?InfoMessage@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+5180(?InfoMessage@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        361  14B 00004DFE ?InfoMessage@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+15865(?InfoMessage@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        362  14C 00001465 ?InfoMessage@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1120(?InfoMessage@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        363  14D 0000149C ?InfoMessage@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1175(?InfoMessage@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        373  14E 000034B8 ?ListerInstancesPhysque@Fonctions@MsSQL@@AEAAPEADXZ = @ILT+9395(?ListerInstancesPhysque@Fonctions@MsSQL@@AEAAPEADXZ)
+        375  14F 0000198D ?LoadFromFile@_Stream@ADODB@@QEAAJV_bstr_t@@@Z = @ILT+2440(?LoadFromFile@_Stream@ADODB@@QEAAJV_bstr_t@@@Z)
+        376  150 0000368E ?LoadFromFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@@Z = @ILT+9865(?LoadFromFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@@Z)
+        377  151 0000442B ?Move@Recordset15@ADODB@@QEAAJJAEBV_variant_t@@@Z = @ILT+13350(?Move@Recordset15@ADODB@@QEAAJJAEBV_variant_t@@@Z)
+        378  152 000020F4 ?Move@Recordset15_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@@Z = @ILT+4335(?Move@Recordset15_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@@Z)
+        379  153 00001CF8 ?MoveComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3315(?MoveComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        380  154 000026E9 ?MoveComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+5860(?MoveComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        381  155 000049CB ?MoveComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+14790(?MoveComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        382  156 00003C83 ?MoveComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11390(?MoveComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        383  157 000033A5 ?MoveFirst@Recordset15@ADODB@@QEAAJXZ = @ILT+9120(?MoveFirst@Recordset15@ADODB@@QEAAJXZ)
+        384  158 000015C3 ?MoveFirst@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+1470(?MoveFirst@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        385  159 00003D14 ?MoveLast@Recordset15@ADODB@@QEAAJXZ = @ILT+11535(?MoveLast@Recordset15@ADODB@@QEAAJXZ)
+        386  15A 000023F6 ?MoveLast@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+5105(?MoveLast@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        387  15B 00001EE7 ?MoveNext@Recordset15@ADODB@@QEAAJXZ = @ILT+3810(?MoveNext@Recordset15@ADODB@@QEAAJXZ)
+        388  15C 000029C3 ?MoveNext@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+6590(?MoveNext@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        389  15D 00003134 ?MovePrevious@Recordset15@ADODB@@QEAAJXZ = @ILT+8495(?MovePrevious@Recordset15@ADODB@@QEAAJXZ)
+        390  15E 00002D92 ?MovePrevious@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+7565(?MovePrevious@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        391  15F 00003C9C ?MoveRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z = @ILT+11415(?MoveRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z)
+        392  160 000039AE ?MoveRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z = @ILT+10665(?MoveRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z)
+        393  161 0000250E ?NextRecordset@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z = @ILT+5385(?NextRecordset@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z)
+        394  162 00002F31 ?NextRecordset@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z = @ILT+7980(?NextRecordset@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z)
+        397  163 00001F19 ?Open@Connection15@ADODB@@QEAAJV_bstr_t@@00J@Z = @ILT+3860(?Open@Connection15@ADODB@@QEAAJV_bstr_t@@00J@Z)
+        398  164 00001168 ?Open@Connection15_Deprecated@ADODB@@QEAAJV_bstr_t@@00J@Z = @ILT+355(?Open@Connection15_Deprecated@ADODB@@QEAAJV_bstr_t@@00J@Z)
+        399  165 000040D9 ?Open@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z = @ILT+12500(?Open@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z)
+        400  166 00003E68 ?Open@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z = @ILT+11875(?Open@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z)
+        401  167 00001BD6 ?Open@_Record@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z = @ILT+3025(?Open@_Record@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z)
+        402  168 00003C38 ?Open@_Record_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z = @ILT+11315(?Open@_Record_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z)
+        403  169 00004B60 ?Open@_Stream@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z = @ILT+15195(?Open@_Stream@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z)
+        404  16A 00003A67 ?Open@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z = @ILT+10850(?Open@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z)
+        407  16B 000017F3 ?OpenSchema@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z = @ILT+2030(?OpenSchema@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z)
+        408  16C 00003D4B ?OpenSchema@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z = @ILT+11590(?OpenSchema@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z)
+        411  16D 0000218F ?PutAbsolutePage@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z = @ILT+4490(?PutAbsolutePage@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z)
+        412  16E 000025CC ?PutAbsolutePage@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z = @ILT+5575(?PutAbsolutePage@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z)
+        413  16F 000025D1 ?PutAbsolutePosition@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z = @ILT+5580(?PutAbsolutePosition@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z)
+        414  170 00002CAC ?PutAbsolutePosition@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z = @ILT+7335(?PutAbsolutePosition@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z)
+        415  171 00002E73 ?PutActiveConnection@Command15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+7790(?PutActiveConnection@Command15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        416  172 00004C87 ?PutActiveConnection@Command15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+15490(?PutActiveConnection@Command15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        417  173 00003724 ?PutActiveConnection@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+10015(?PutActiveConnection@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        418  174 00001D6B ?PutActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+3430(?PutActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        419  175 00002D0B ?PutActiveConnection@_Record@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+7430(?PutActiveConnection@_Record@ADODB@@QEAAXV_bstr_t@@@Z)
+        420  176 00004278 ?PutActiveConnection@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12915(?PutActiveConnection@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        421  177 00001A0F ?PutAttributes@Connection15@ADODB@@QEAAXJ@Z = @ILT+2570(?PutAttributes@Connection15@ADODB@@QEAAXJ@Z)
+        422  178 0000461F ?PutAttributes@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+13850(?PutAttributes@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        423  179 00004840 ?PutAttributes@Field20@ADODB@@QEAAXJ@Z = @ILT+14395(?PutAttributes@Field20@ADODB@@QEAAXJ@Z)
+        424  17A 00003175 ?PutAttributes@Field20_Deprecated@ADODB@@QEAAXJ@Z = @ILT+8560(?PutAttributes@Field20_Deprecated@ADODB@@QEAAXJ@Z)
+        425  17B 00003026 ?PutAttributes@Property@ADODB@@QEAAXJ@Z = @ILT+8225(?PutAttributes@Property@ADODB@@QEAAXJ@Z)
+        426  17C 000024FA ?PutAttributes@_Parameter@ADODB@@QEAAXJ@Z = @ILT+5365(?PutAttributes@_Parameter@ADODB@@QEAAXJ@Z)
+        427  17D 0000315C ?PutAttributes@_Parameter_Deprecated@ADODB@@QEAAXJ@Z = @ILT+8535(?PutAttributes@_Parameter_Deprecated@ADODB@@QEAAXJ@Z)
+        428  17E 000033DC ?PutBookmark@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+9175(?PutBookmark@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        429  17F 00004395 ?PutBookmark@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+13200(?PutBookmark@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        430  180 00003F80 ?PutCacheSize@Recordset15@ADODB@@QEAAXJ@Z = @ILT+12155(?PutCacheSize@Recordset15@ADODB@@QEAAXJ@Z)
+        431  181 0000300D ?PutCacheSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+8200(?PutCacheSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        432  182 00003F21 ?PutChapter@ADORecordsetConstruction@ADODB@@QEAAXJ@Z = @ILT+12060(?PutChapter@ADORecordsetConstruction@ADODB@@QEAAXJ@Z)
+        433  183 00004921 ?PutCharset@_Stream@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+14620(?PutCharset@_Stream@ADODB@@QEAAXV_bstr_t@@@Z)
+        434  184 000040C5 ?PutCharset@_Stream_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12480(?PutCharset@_Stream_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        435  185 00004368 ?PutCollect@Recordset15@ADODB@@QEAAXAEBV_variant_t@@0@Z = @ILT+13155(?PutCollect@Recordset15@ADODB@@QEAAXAEBV_variant_t@@0@Z)
+        436  186 00002FF9 ?PutCollect@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@0@Z = @ILT+8180(?PutCollect@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@0@Z)
+        437  187 00003B4D ?PutCommandText@Command15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11080(?PutCommandText@Command15@ADODB@@QEAAXV_bstr_t@@@Z)
+        438  188 00001EE2 ?PutCommandText@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+3805(?PutCommandText@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        439  189 00003E54 ?PutCommandTimeout@Command15@ADODB@@QEAAXJ@Z = @ILT+11855(?PutCommandTimeout@Command15@ADODB@@QEAAXJ@Z)
+        440  18A 000028B5 ?PutCommandTimeout@Command15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+6320(?PutCommandTimeout@Command15_Deprecated@ADODB@@QEAAXJ@Z)
+        441  18B 00002EE6 ?PutCommandTimeout@Connection15@ADODB@@QEAAXJ@Z = @ILT+7905(?PutCommandTimeout@Connection15@ADODB@@QEAAXJ@Z)
+        442  18C 000019D3 ?PutCommandTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+2510(?PutCommandTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        443  18D 00001852 ?PutCommandType@Command15@ADODB@@QEAAXW4CommandTypeEnum@2@@Z = @ILT+2125(?PutCommandType@Command15@ADODB@@QEAAXW4CommandTypeEnum@2@@Z)
+        444  18E 0000172B ?PutCommandType@Command15_Deprecated@ADODB@@QEAAXW4CommandTypeEnum@2@@Z = @ILT+1830(?PutCommandType@Command15_Deprecated@ADODB@@QEAAXW4CommandTypeEnum@2@@Z)
+        445  18F 00004845 ?PutConnectionString@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+14400(?PutConnectionString@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        446  190 00003A2B ?PutConnectionString@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10790(?PutConnectionString@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        447  191 00003CC4 ?PutConnectionTimeout@Connection15@ADODB@@QEAAXJ@Z = @ILT+11455(?PutConnectionTimeout@Connection15@ADODB@@QEAAXJ@Z)
+        448  192 00004E35 ?PutConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+15920(?PutConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        449  193 00003DCD ?PutCursorLocation@Connection15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+11720(?PutCursorLocation@Connection15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        450  194 00003CE7 ?PutCursorLocation@Connection15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+11490(?PutCursorLocation@Connection15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        451  195 00003076 ?PutCursorLocation@Recordset15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+8305(?PutCursorLocation@Recordset15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        452  196 000026DA ?PutCursorLocation@Recordset15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+5845(?PutCursorLocation@Recordset15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        453  197 0000175D ?PutCursorType@Recordset15@ADODB@@QEAAXW4CursorTypeEnum@2@@Z = @ILT+1880(?PutCursorType@Recordset15@ADODB@@QEAAXW4CursorTypeEnum@2@@Z)
+        454  198 00004A2A ?PutCursorType@Recordset15_Deprecated@ADODB@@QEAAXW4CursorTypeEnum@2@@Z = @ILT+14885(?PutCursorType@Recordset15_Deprecated@ADODB@@QEAAXW4CursorTypeEnum@2@@Z)
+        455  199 00004AC5 ?PutDataMember@Recordset20@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+15040(?PutDataMember@Recordset20@ADODB@@QEAAXV_bstr_t@@@Z)
+        456  19A 00003832 ?PutDataMember@Recordset20_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10285(?PutDataMember@Recordset20_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        457  19B 0000155A ?PutDefaultDatabase@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1365(?PutDefaultDatabase@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        458  19C 00003DB9 ?PutDefaultDatabase@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11700(?PutDefaultDatabase@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        459  19D 0000479B ?PutDefinedSize@Field20@ADODB@@QEAAXJ@Z = @ILT+14230(?PutDefinedSize@Field20@ADODB@@QEAAXJ@Z)
+        460  19E 00001483 ?PutDefinedSize@Field20_Deprecated@ADODB@@QEAAXJ@Z = @ILT+1150(?PutDefinedSize@Field20_Deprecated@ADODB@@QEAAXJ@Z)
+        461  19F 00003CEC ?PutDialect@_Command@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11495(?PutDialect@_Command@ADODB@@QEAAXV_bstr_t@@@Z)
+        462  1A0 00004723 ?PutDialect@_Command_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+14110(?PutDialect@_Command_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        463  1A1 00004A66 ?PutDirection@_Parameter@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z = @ILT+14945(?PutDirection@_Parameter@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z)
+        464  1A2 00002B58 ?PutDirection@_Parameter_Deprecated@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z = @ILT+6995(?PutDirection@_Parameter_Deprecated@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z)
+        465  1A3 00001032 ?PutFilter@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+45(?PutFilter@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        466  1A4 0000308A ?PutFilter@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+8325(?PutFilter@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        467  1A5 0000151E ?PutIndex@Recordset21@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1305(?PutIndex@Recordset21@ADODB@@QEAAXV_bstr_t@@@Z)
+        468  1A6 000042D7 ?PutIndex@Recordset21_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+13010(?PutIndex@Recordset21_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        469  1A7 00003530 ?PutIsolationLevel@Connection15@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z = @ILT+9515(?PutIsolationLevel@Connection15@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z)
+        470  1A8 00004A43 ?PutIsolationLevel@Connection15_Deprecated@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z = @ILT+14910(?PutIsolationLevel@Connection15_Deprecated@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z)
+        471  1A9 00004CD7 ?PutLineSeparator@_Stream@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z = @ILT+15570(?PutLineSeparator@_Stream@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z)
+        472  1AA 00004836 ?PutLineSeparator@_Stream_Deprecated@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z = @ILT+14385(?PutLineSeparator@_Stream_Deprecated@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z)
+        473  1AB 00001CCB ?PutLockType@Recordset15@ADODB@@QEAAXW4LockTypeEnum@2@@Z = @ILT+3270(?PutLockType@Recordset15@ADODB@@QEAAXW4LockTypeEnum@2@@Z)
+        474  1AC 00003DF0 ?PutLockType@Recordset15_Deprecated@ADODB@@QEAAXW4LockTypeEnum@2@@Z = @ILT+11755(?PutLockType@Recordset15_Deprecated@ADODB@@QEAAXW4LockTypeEnum@2@@Z)
+        475  1AD 000021AD ?PutMarshalOptions@Recordset15@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z = @ILT+4520(?PutMarshalOptions@Recordset15@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z)
+        476  1AE 00003742 ?PutMarshalOptions@Recordset15_Deprecated@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z = @ILT+10045(?PutMarshalOptions@Recordset15_Deprecated@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z)
+        477  1AF 000043AE ?PutMaxRecords@Recordset15@ADODB@@QEAAXJ@Z = @ILT+13225(?PutMaxRecords@Recordset15@ADODB@@QEAAXJ@Z)
+        478  1B0 00003F3A ?PutMaxRecords@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+12085(?PutMaxRecords@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        479  1B1 00003071 ?PutMode@Connection15@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+8300(?PutMode@Connection15@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        480  1B2 000043A4 ?PutMode@Connection15_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+13215(?PutMode@Connection15_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        481  1B3 000037BF ?PutMode@_Record@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+10170(?PutMode@_Record@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        482  1B4 00001A96 ?PutMode@_Record_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+2705(?PutMode@_Record_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        483  1B5 00004444 ?PutMode@_Stream@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+13375(?PutMode@_Stream@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        484  1B6 00002284 ?PutMode@_Stream_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+4735(?PutMode@_Stream_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        485  1B7 00003DFF ?PutName@Command15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11770(?PutName@Command15@ADODB@@QEAAXV_bstr_t@@@Z)
+        486  1B8 00003A12 ?PutName@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10765(?PutName@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        487  1B9 0000186B ?PutName@_Parameter@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+2150(?PutName@_Parameter@ADODB@@QEAAXV_bstr_t@@@Z)
+        488  1BA 00002A0E ?PutName@_Parameter_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+6665(?PutName@_Parameter_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        489  1BB 00003693 ?PutNamedParameters@_Command@ADODB@@QEAAXF@Z = @ILT+9870(?PutNamedParameters@_Command@ADODB@@QEAAXF@Z)
+        490  1BC 00001820 ?PutNamedParameters@_Command_Deprecated@ADODB@@QEAAXF@Z = @ILT+2075(?PutNamedParameters@_Command_Deprecated@ADODB@@QEAAXF@Z)
+        491  1BD 000024F0 ?PutNumericScale@Field20@ADODB@@QEAAXE@Z = @ILT+5355(?PutNumericScale@Field20@ADODB@@QEAAXE@Z)
+        492  1BE 00004458 ?PutNumericScale@Field20_Deprecated@ADODB@@QEAAXE@Z = @ILT+13395(?PutNumericScale@Field20_Deprecated@ADODB@@QEAAXE@Z)
+        493  1BF 00004179 ?PutNumericScale@_Parameter@ADODB@@QEAAXE@Z = @ILT+12660(?PutNumericScale@_Parameter@ADODB@@QEAAXE@Z)
+        494  1C0 000038C8 ?PutNumericScale@_Parameter_Deprecated@ADODB@@QEAAXE@Z = @ILT+10435(?PutNumericScale@_Parameter_Deprecated@ADODB@@QEAAXE@Z)
+        495  1C1 00002667 ?PutOLEDBCommand@ADOCommandConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+5730(?PutOLEDBCommand@ADOCommandConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        496  1C2 00001078 ?PutPageSize@Recordset15@ADODB@@QEAAXJ@Z = @ILT+115(?PutPageSize@Recordset15@ADODB@@QEAAXJ@Z)
+        497  1C3 00004DEF ?PutPageSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+15850(?PutPageSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        498  1C4 00003350 ?PutParentRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+9035(?PutParentRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        499  1C5 00002C93 ?PutPosition@_Stream@ADODB@@QEAAXJ@Z = @ILT+7310(?PutPosition@_Stream@ADODB@@QEAAXJ@Z)
+        500  1C6 00003B61 ?PutPosition@_Stream_Deprecated@ADODB@@QEAAXJ@Z = @ILT+11100(?PutPosition@_Stream_Deprecated@ADODB@@QEAAXJ@Z)
+        501  1C7 000043F9 ?PutPrecision@Field20@ADODB@@QEAAXE@Z = @ILT+13300(?PutPrecision@Field20@ADODB@@QEAAXE@Z)
+        502  1C8 00001343 ?PutPrecision@Field20_Deprecated@ADODB@@QEAAXE@Z = @ILT+830(?PutPrecision@Field20_Deprecated@ADODB@@QEAAXE@Z)
+        503  1C9 00001CB7 ?PutPrecision@_Parameter@ADODB@@QEAAXE@Z = @ILT+3250(?PutPrecision@_Parameter@ADODB@@QEAAXE@Z)
+        504  1CA 000045DE ?PutPrecision@_Parameter_Deprecated@ADODB@@QEAAXE@Z = @ILT+13785(?PutPrecision@_Parameter_Deprecated@ADODB@@QEAAXE@Z)
+        505  1CB 00003B8E ?PutPrepared@Command15@ADODB@@QEAAXF@Z = @ILT+11145(?PutPrepared@Command15@ADODB@@QEAAXF@Z)
+        506  1CC 000048F4 ?PutPrepared@Command15_Deprecated@ADODB@@QEAAXF@Z = @ILT+14575(?PutPrepared@Command15_Deprecated@ADODB@@QEAAXF@Z)
+        507  1CD 00001BEA ?PutProvider@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+3045(?PutProvider@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        508  1CE 00003FA3 ?PutProvider@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12190(?PutProvider@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        509  1CF 00003EA4 ?PutRefActiveConnection@Command15@ADODB@@QEAAXPEAU_Connection@2@@Z = @ILT+11935(?PutRefActiveConnection@Command15@ADODB@@QEAAXPEAU_Connection@2@@Z)
+        510  1D0 000024E6 ?PutRefActiveConnection@Command15_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z = @ILT+5345(?PutRefActiveConnection@Command15_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z)
+        511  1D1 00001DCF ?PutRefActiveConnection@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+3530(?PutRefActiveConnection@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        512  1D2 00001D2F ?PutRefActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+3370(?PutRefActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        513  1D3 00004A84 ?PutRefActiveConnection@_Record@ADODB@@QEAAXPEAU_Connection@2@@Z = @ILT+14975(?PutRefActiveConnection@_Record@ADODB@@QEAAXPEAU_Connection@2@@Z)
+        514  1D4 0000259A ?PutRefActiveConnection@_Record_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z = @ILT+5525(?PutRefActiveConnection@_Record_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z)
+        515  1D5 000020A4 ?PutRefCommandStream@_Command@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+4255(?PutRefCommandStream@_Command@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        516  1D6 00004E94 ?PutRefCommandStream@_Command_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+16015(?PutRefCommandStream@_Command_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        517  1D7 00004E71 ?PutRefDataFormat@Field20@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+15980(?PutRefDataFormat@Field20@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        518  1D8 00002905 ?PutRefDataFormat@Field20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+6400(?PutRefDataFormat@Field20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        519  1D9 00004025 ?PutRefDataSource@Recordset20@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+12320(?PutRefDataSource@Recordset20@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        520  1DA 00002EB9 ?PutRefDataSource@Recordset20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+7860(?PutRefDataSource@Recordset20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        521  1DB 000017B2 ?PutRefSource@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+1965(?PutRefSource@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        522  1DC 00004BB5 ?PutRefSource@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+15280(?PutRefSource@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        523  1DD 00001B31 ?PutRefSource@_Record@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+2860(?PutRefSource@_Record@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        524  1DE 00001FFA ?PutRefSource@_Record_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+4085(?PutRefSource@_Record_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        525  1DF 000014A6 ?PutRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+1185(?PutRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        526  1E0 00004E4E ?PutRowPosition@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+15945(?PutRowPosition@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        527  1E1 00004890 ?PutRowset@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+14475(?PutRowset@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        528  1E2 0000266C ?PutSize@_Parameter@ADODB@@QEAAXJ@Z = @ILT+5735(?PutSize@_Parameter@ADODB@@QEAAXJ@Z)
+        529  1E3 00003A7B ?PutSize@_Parameter_Deprecated@ADODB@@QEAAXJ@Z = @ILT+10870(?PutSize@_Parameter_Deprecated@ADODB@@QEAAXJ@Z)
+        530  1E4 000021C1 ?PutSort@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+4540(?PutSort@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z)
+        531  1E5 000041C9 ?PutSort@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12740(?PutSort@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        532  1E6 00003620 ?PutSource@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+9755(?PutSource@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z)
+        533  1E7 00001681 ?PutSource@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1660(?PutSource@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        534  1E8 0000241E ?PutSource@_Record@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+5145(?PutSource@_Record@ADODB@@QEAAXV_bstr_t@@@Z)
+        535  1E9 00003800 ?PutSource@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10235(?PutSource@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        536  1EA 0000258B ?PutStayInSync@Recordset20@ADODB@@QEAAXF@Z = @ILT+5510(?PutStayInSync@Recordset20@ADODB@@QEAAXF@Z)
+        537  1EB 0000227A ?PutStayInSync@Recordset20_Deprecated@ADODB@@QEAAXF@Z = @ILT+4725(?PutStayInSync@Recordset20_Deprecated@ADODB@@QEAAXF@Z)
+        538  1EC 00001C8F ?PutStream@ADOStreamConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+3210(?PutStream@ADOStreamConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        539  1ED 000036AC ?PutType@Field20@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+9895(?PutType@Field20@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        540  1EE 0000133E ?PutType@Field20_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+825(?PutType@Field20_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        541  1EF 00004EB2 ?PutType@_Parameter@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+16045(?PutType@_Parameter@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        542  1F0 000048D6 ?PutType@_Parameter_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+14545(?PutType@_Parameter_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        543  1F1 000026A8 ?PutType@_Stream@ADODB@@QEAAXW4StreamTypeEnum@2@@Z = @ILT+5795(?PutType@_Stream@ADODB@@QEAAXW4StreamTypeEnum@2@@Z)
+        544  1F2 00002D6A ?PutType@_Stream_Deprecated@ADODB@@QEAAXW4StreamTypeEnum@2@@Z = @ILT+7525(?PutType@_Stream_Deprecated@ADODB@@QEAAXW4StreamTypeEnum@2@@Z)
+        545  1F3 0000177B ?PutValue@Field15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+1910(?PutValue@Field15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        546  1F4 00001B8B ?PutValue@Field15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+2950(?PutValue@Field15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        547  1F5 0000361B ?PutValue@Field20@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+9750(?PutValue@Field20@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        548  1F6 00002518 ?PutValue@Field20_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+5395(?PutValue@Field20_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        549  1F7 00002F9F ?PutValue@Property@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+8090(?PutValue@Property@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        550  1F8 00003AE9 ?PutValue@_Parameter@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+10980(?PutValue@_Parameter@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        551  1F9 00004660 ?PutValue@_Parameter_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+13915(?PutValue@_Parameter_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        552  1FA 000027D4 ?Read@_Stream@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+6095(?Read@_Stream@ADODB@@QEAA?AV_variant_t@@J@Z)
+        553  1FB 00001F00 ?Read@_Stream_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+3835(?Read@_Stream_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        554  1FC 000042C8 ?ReadText@_Stream@ADODB@@QEAA?AV_bstr_t@@J@Z = @ILT+12995(?ReadText@_Stream@ADODB@@QEAA?AV_bstr_t@@J@Z)
+        555  1FD 00001F6E ?ReadText@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@J@Z = @ILT+3945(?ReadText@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@J@Z)
+        556  1FE 00003BE3 ?RecordChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+11230(?RecordChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        557  1FF 00001D3E ?RecordChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3385(?RecordChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        558  200 00003E72 ?RecordChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11885(?RecordChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        559  201 00001EB5 ?RecordChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+3760(?RecordChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        560  202 00002B99 ?RecordsetChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+7060(?RecordsetChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        561  203 000011D1 ?RecordsetChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+460(?RecordsetChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        562  204 00003C65 ?RecordsetChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11360(?RecordsetChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        563  205 000031A2 ?RecordsetChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+8605(?RecordsetChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        565  206 000043FE ?Refresh@_Collection@ADODB@@QEAAJXZ = @ILT+13305(?Refresh@_Collection@ADODB@@QEAAJXZ)
+        567  207 00004A16 ?Requery@Recordset15@ADODB@@QEAAJJ@Z = @ILT+14865(?Requery@Recordset15@ADODB@@QEAAJJ@Z)
+        568  208 000014E2 ?Requery@Recordset15_Deprecated@ADODB@@QEAAJJ@Z = @ILT+1245(?Requery@Recordset15_Deprecated@ADODB@@QEAAJJ@Z)
+        569  209 00002AE0 ?Resync@Fields@ADODB@@QEAAJW4ResyncEnum@2@@Z = @ILT+6875(?Resync@Fields@ADODB@@QEAAJW4ResyncEnum@2@@Z)
+        570  20A 00004552 ?Resync@Fields_Deprecated@ADODB@@QEAAJW4ResyncEnum@2@@Z = @ILT+13645(?Resync@Fields_Deprecated@ADODB@@QEAAJW4ResyncEnum@2@@Z)
+        571  20B 0000268F ?Resync@Recordset20@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z = @ILT+5770(?Resync@Recordset20@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z)
+        572  20C 000011C2 ?Resync@Recordset20_Deprecated@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z = @ILT+445(?Resync@Recordset20_Deprecated@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z)
+        573  20D 00004AB1 ?RollbackTrans@Connection15@ADODB@@QEAAJXZ = @ILT+15020(?RollbackTrans@Connection15@ADODB@@QEAAJXZ)
+        574  20E 000035C6 ?RollbackTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+9665(?RollbackTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        575  20F 00004E3F ?RollbackTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+15930(?RollbackTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        576  210 00002C0C ?RollbackTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+7175(?RollbackTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        577  211 000014A1 ?RollbackTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1180(?RollbackTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        578  212 000030F8 ?RollbackTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+8435(?RollbackTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        579  213 00002E50 ?Save@_Recordset@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z = @ILT+7755(?Save@_Recordset@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z)
+        580  214 00004700 ?Save@_Recordset_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z = @ILT+14075(?Save@_Recordset_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z)
+        581  215 00003A30 ?SaveToFile@_Stream@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z = @ILT+10795(?SaveToFile@_Stream@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z)
+        582  216 0000358F ?SaveToFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z = @ILT+9610(?SaveToFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z)
+        583  217 000038D2 ?Seek@Recordset21@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z = @ILT+10445(?Seek@Recordset21@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z)
+        584  218 00001ED3 ?Seek@Recordset21_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z = @ILT+3790(?Seek@Recordset21_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z)
+        586  219 00001361 ?SetEOS@_Stream@ADODB@@QEAAJXZ = @ILT+860(?SetEOS@_Stream@ADODB@@QEAAJXZ)
+        587  21A 00004A3E ?SetEOS@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+14905(?SetEOS@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        590  21B 000033E1 ?SkipLine@_Stream@ADODB@@QEAAJXZ = @ILT+9180(?SkipLine@_Stream@ADODB@@QEAAJXZ)
+        591  21C 00003C6F ?SkipLine@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+11370(?SkipLine@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        592  21D 00001BB8 ?Supports@Recordset15@ADODB@@QEAAFW4CursorOptionEnum@2@@Z = @ILT+2995(?Supports@Recordset15@ADODB@@QEAAFW4CursorOptionEnum@2@@Z)
+        593  21E 0000423C ?Supports@Recordset15_Deprecated@ADODB@@QEAAFW4CursorOptionEnum@2@@Z = @ILT+12855(?Supports@Recordset15_Deprecated@ADODB@@QEAAFW4CursorOptionEnum@2@@Z)
+        597  21F 00003472 ?Update@Fields@ADODB@@QEAAJXZ = @ILT+9325(?Update@Fields@ADODB@@QEAAJXZ)
+        598  220 000014D3 ?Update@Fields_Deprecated@ADODB@@QEAAJXZ = @ILT+1230(?Update@Fields_Deprecated@ADODB@@QEAAJXZ)
+        599  221 00003049 ?Update@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+8260(?Update@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+        600  222 00003328 ?Update@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+8995(?Update@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+        601  223 0000259F ?UpdateBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+5530(?UpdateBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        602  224 00004E49 ?UpdateBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+15940(?UpdateBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        604  225 0000380F ?WillChangeField@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+10250(?WillChangeField@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        605  226 00002969 ?WillChangeField@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+6500(?WillChangeField@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        606  227 0000139D ?WillChangeField@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+920(?WillChangeField@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        607  228 00001F41 ?WillChangeField@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+3900(?WillChangeField@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        608  229 00002171 ?WillChangeRecord@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4460(?WillChangeRecord@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        609  22A 0000288D ?WillChangeRecord@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+6280(?WillChangeRecord@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        610  22B 00004E26 ?WillChangeRecord@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+15905(?WillChangeRecord@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        611  22C 00004958 ?WillChangeRecord@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+14675(?WillChangeRecord@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        612  22D 000021B2 ?WillChangeRecordset@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4525(?WillChangeRecordset@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        613  22E 00002568 ?WillChangeRecordset@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+5475(?WillChangeRecordset@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        614  22F 0000228E ?WillChangeRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+4745(?WillChangeRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        615  230 000011B3 ?WillChangeRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+430(?WillChangeRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        616  231 00004D7C ?WillConnect@ConnectionEvents@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+15735(?WillConnect@ConnectionEvents@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        617  232 00004E99 ?WillConnect@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16020(?WillConnect@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        618  233 00004E1C ?WillConnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+15895(?WillConnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        619  234 000045C0 ?WillConnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+13755(?WillConnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        620  235 00004CF5 ?WillExecute@ConnectionEvents@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+15600(?WillExecute@ConnectionEvents@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        621  236 00003841 ?WillExecute@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+10300(?WillExecute@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        622  237 00001C58 ?WillExecute@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+3155(?WillExecute@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        623  238 0000379C ?WillExecute@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+10135(?WillExecute@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        624  239 00004403 ?WillMove@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+13310(?WillMove@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        625  23A 00001F0A ?WillMove@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3845(?WillMove@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        626  23B 00002ABD ?WillMove@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+6840(?WillMove@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        627  23C 000011EA ?WillMove@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+485(?WillMove@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        628  23D 00001DAC ?WrapDSOandSession@ADOConnectionConstruction15@ADODB@@QEAAJPEAUIUnknown@@0@Z = @ILT+3495(?WrapDSOandSession@ADOConnectionConstruction15@ADODB@@QEAAJPEAUIUnknown@@0@Z)
+        629  23E 000012E9 ?Write@_Stream@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+740(?Write@_Stream@ADODB@@QEAAJAEBV_variant_t@@@Z)
+        630  23F 0000317F ?Write@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+8570(?Write@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+        631  240 000039C2 ?WriteText@_Stream@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z = @ILT+10685(?WriteText@_Stream@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z)
+        632  241 000019F1 ?WriteText@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z = @ILT+2540(?WriteText@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z)
+        633  242 00003D1E ?_Append@Fields20@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z = @ILT+11545(?_Append@Fields20@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z)
+        634  243 0000162C ?_Append@Fields20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z = @ILT+1575(?_Append@Fields20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z)
+        635  244 00002A77 ?_NewEnum@_Collection@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+6770(?_NewEnum@_Collection@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        636  245 00003F49 ?_xClone@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+12100(?_xClone@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        637  246 000023E2 ?_xClone@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5085(?_xClone@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        638  247 00003D2D ?_xResync@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+11560(?_xResync@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        639  248 00001BE0 ?_xResync@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+3035(?_xResync@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        640  249 00002D06 ?_xSave@Recordset20@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z = @ILT+7425(?_xSave@Recordset20@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z)
+        641  24A 00002806 ?_xSave@Recordset20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z = @ILT+6145(?_xSave@Recordset20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z)
+          4  24B 00002BA3 AddIconIMG_List = @ILT+7070(?AddIconIMG_List@@YAXAEAPEAU_IMAGELIST@@PEBD@Z)
+         38  24C 00004868 CheckDigit = @ILT+14435(?CheckDigit@@YAHPEBDH@Z)
+         39  24D 00004DB3 ChoisirBase = @ILT+15790(?ChoisirBase@@YAPEAUHKEY__@@PEAD@Z)
+         40  24E 000049DF ChoisirType = @ILT+14810(?ChoisirType@@YAKPEAD@Z)
+         68  24F 00004296 CreateBMPFile = @ILT+12945(?CreateBMPFile@@YAXPEAUHWND__@@PEADPEAUtagBITMAPINFO@@PEAUHBITMAP__@@PEAUHDC__@@@Z)
+         69  250 00003689 CreateBitmapInfoStruct = @ILT+9860(?CreateBitmapInfoStruct@@YAPEAUtagBITMAPINFO@@PEAUHWND__@@PEAUHBITMAP__@@@Z)
+         72  251 00001609 CreerCle = @ILT+1540(?CreerCle@@YA_NPEAD0PEAPEAUHKEY__@@@Z)
+         73  252 00004DC2 CreerInterfaceClients = @ILT+15805(?CreerInterfaceClients@@YAXXZ)
+         74  253 000037DD CreerInterfaceComptabilitÇ¸ = @ILT+10200(?CreerInterfaceComptabilit‚@@YAXXZ)
+         75  254 00002AC7 CreerInterfaceContacts = @ILT+6850(?CreerInterfaceContacts@@YAXXZ)
+         76  255 000042AA CreerInterfaceEmployÇ¸s = @ILT+12965(?CreerInterfaceEmploy‚s@@YAXXZ)
+         77  256 00004430 CreerInterfaceFournisseurs = @ILT+13355(?CreerInterfaceFournisseurs@@YAXXZ)
+         78  257 00001ADC CreerInterfaceInventaire = @ILT+2775(?CreerInterfaceInventaire@@YAXXZ)
+         79  258 00003EFE CreerInterfaceProjets = @ILT+12025(?CreerInterfaceProjets@@YAXXZ)
+         80  259 000018AC CreerInterfacePropos = @ILT+2215(?CreerInterfacePropos@@YAXXZ)
+         81  25A 00003F35 CreerInterfacePunch = @ILT+12080(?CreerInterfacePunch@@YAXXZ)
+         82  25B 000040B6 Decode = @ILT+12465(?Decode@@YAHPEBD@Z)
+         94  25C 0000455C DoContextMenu = @ILT+13655(?DoContextMenu@@YA_N_K_J@Z)
+         95  25D 00003562 Draw = @ILT+9565(?Draw@@YAXPEAUHDC__@@UtagPOINT@@HH@Z)
+         96  25E 00004D36 EcrireValeur = @ILT+15665(?EcrireValeur@@YA_NPEAUHKEY__@@PEAD11@Z)
+         97  25F 00002810 EnableGrayMenu = @ILT+6155(?EnableGrayMenu@@YAXPEAUHMENU__@@H@Z)
+        102  260 00001618 ErrorString = @ILT+1555(?ErrorString@@YAPEBDH@Z)
+        111  261 0000478C FermerCle = @ILT+14215(?FermerCle@@YA_NPEAUHKEY__@@@Z)
+        143  262 00002D2E GetAppLastError = @ILT+7465(?GetAppLastError@@YAHXZ)
+        144  263 000047DC GetApproximateStep = @ILT+14295(?GetApproximateStep@@YAHH@Z)
+        145  264 00003A08 GetApproximateWidth = @ILT+10755(?GetApproximateWidth@@YAHH@Z)
+        170  265 00004BD8 GetCodeString = @ILT+15315(?GetCodeString@@YAPEBDXZ)
+        245  266 00002E6E GetMinimalHeight = @ILT+7785(?GetMinimalHeight@@YAHPEAUHDC__@@H@Z)
+        337  267 00003599 GetTextItemTree = @ILT+9620(?GetTextItemTree@@YAPEADPEAU_TREEITEM@@@Z)
+        364  268 00004C3C InitControlRubanOutils = @ILT+15415(?InitControlRubanOutils@@YAXH@Z)
+        365  269 000040F2 InitControlTabulation = @ILT+12525(?InitControlTabulation@@YAXXZ)
+        366  26A 00001D70 InitListViewImageLists = @ILT+3435(?InitListViewImageLists@@YAXXZ)
+        367  26B 00004372 InitTreeViewImageLists = @ILT+13165(?InitTreeViewImageLists@@YAXXZ)
+        368  26C 00003FDF InitTreeViewItems = @ILT+12250(?InitTreeViewItems@@YAXXZ)
+        369  26D 00001951 InscrireRegistre = @ILT+2380(?InscrireRegistre@@YAXXZ)
+        370  26E 00003C92 LireValeur = @ILT+11405(?LireValeur@@YAPEADPEAUHKEY__@@PEADPEAH@Z)
+        371  26F 00001267 ListViewCas = @ILT+610(?ListViewCas@@YAHXZ)
+        372  270 0000417E ListerDisk = @ILT+12665(?ListerDisk@@YAXPEAU_TREEITEM@@@Z)
+        374  271 00003576 ListerRepFile = @ILT+9585(?ListerRepFile@@YAXPEADPEAU_TREEITEM@@@Z)
+        395  272 00001811 OnRegError = @ILT+2060(?OnRegError@@YAXH@Z)
+        396  273 00003C51 OnSelTree = @ILT+11340(?OnSelTree@@YAXXZ)
+        405  274 000039D6 OpenExplorePrint = @ILT+10705(?OpenExplorePrint@@YAXPEAD@Z)
+        406  275 00004A07 OpenFolder = @ILT+14850(?OpenFolder@@YAXPEAD@Z)
+        409  276 000017CB OuvrirCle = @ILT+1990(?OuvrirCle@@YA_NPEAD0PEAPEAUHKEY__@@@Z)
+        410  277 000036B1 PreparePrint = @ILT+9900(?PreparePrint@@YAHPEAUHDC__@@U_POINTFLOAT@@PEAUtagRECT@@@Z)
+        564  278 00001AF0 RecupInfo = @ILT+2795(?RecupInfo@@YAXXZ)
+        566  279 00001B18 Rename = @ILT+2835(?Rename@@YA_NPEAUtagLVDISPINFO@@@Z)
+        585  27A 00003A8F SetBits = @ILT+10890(?SetBits@@YAXPEAPEADPEAHGH@Z)
+        588  27B 000030BC SetIndex = @ILT+8375(?SetIndex@@YAHD@Z)
+        589  27C 00001A1E SetResultCode = @ILT+2585(?SetResultCode@@YAXPEAUHWND__@@@Z)
+        594  27D 0000328D SupprimerCle = @ILT+8840(?SupprimerCle@@YA_NPEAD0@Z)
+        595  27E 0000260D SupprimerValeur = @ILT+5640(?SupprimerValeur@@YA_NPEAD00@Z)
+        596  27F 000034E5 SwitchView = @ILT+9440(?SwitchView@@YAXPEAUHWND__@@K@Z)
+        603  280 000032E2 UpdateMenu = @ILT+8925(?UpdateMenu@@YAXPEAUHWND__@@PEAUHMENU__@@@Z)
+        642  281 00003954 errhandler = @ILT+10575(?errhandler@@YAXPEBDPEAUHWND__@@@Z)
+
+  Image has the following dependencies:
+
+    KERNEL32.dll
+    USER32.dll
+    GDI32.dll
+    ADVAPI32.dll
+    SHELL32.dll
+    OLEAUT32.dll
+    COMCTL32.dll
+
+  Section contains the following imports:
+
+    KERNEL32.dll
+             1400DA1C0 Import Address Table
+             1400DABC8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4A9 ReadFile
+                         225 GetConsoleMode
+                         229 GetConsoleOutputCP
+                         1C8 FlushFileBuffers
+                         383 HeapReAlloc
+                         385 HeapSize
+                         569 SetFilePointerEx
+                         278 GetFileSizeEx
+                         52F SetConsoleCtrlHandler
+                         2E4 GetProcessHeap
+                         3E4 LCMapStringW
+                          B3 CompareStringW
+                         341 GetTimeFormatW
+                         24C GetDateFormatW
+                         61A VirtualProtect
+                         397 InitializeCriticalSectionEx
+                         3BA IsThreadAFiber
+                         1C3 FlsFree
+                         1C6 FlsSetValue
+                         1C4 FlsGetValue
+                         1C2 FlsAlloc
+                         329 GetTempPathW
+                         4A6 ReadConsoleW
+                         349 GetUserDefaultLCID
+                         3C0 IsValidLocale
+                         291 GetLocaleInfoW
+                         308 GetStringTypeW
+                         41A MoveFileA
+                         55A SetEnvironmentVariableW
+                         1D3 FreeEnvironmentStringsW
+                         262 GetEnvironmentStringsW
+                         64C WideCharToMultiByte
+                         423 MultiByteToWideChar
+                         1EA GetCPInfo
+                         2C6 GetOEMCP
+                         1DB GetACP
+                         3BE IsValidCodePage
+                         1B4 FindNextFileW
+                         1A3 FindFirstFileExW
+                         44B OutputDebugStringW
+                         27A GetFileType
+                         37C HeapAlloc
+                         380 HeapFree
+                         245 GetCurrentThread
+                         2A4 GetModuleHandleExW
+                          E6 CreateFileW
+                         65F WriteConsoleW
+                         239 GetCurrentDirectoryA
+                         3FD LocalAlloc
+                         36B GlobalFree
+                         364 GlobalAlloc
+                         17B EnumSystemLocalesW
+                         660 WriteFile
+                         292 GetLogicalDriveStringsA
+                          9D CloseHandle
+                         560 SetFileAttributesA
+                         4F0 RemoveDirectoryA
+                         259 GetDriveTypeA
+                         1B2 FindNextFileA
+                         1A1 FindFirstFileA
+                         19D FindClose
+                         186 ExitProcess
+                         2A1 GetModuleFileNameW
+                         303 GetStdHandle
+                         200 GetCommandLineW
+                         1FF GetCommandLineA
+                         3F6 LoadLibraryExW
+                         2DD GetProcAddress
+                         1D4 FreeLibrary
+                         5EB TlsFree
+                         5EE TlsSetValue
+                         133 DeleteFileA
+                          DE CreateFileA
+                          CF CreateDirectoryA
+                         681 lstrcmpA
+                         54E SetCurrentDirectoryA
+                         68D lstrlenA
+                         593 SetStdHandle
+                         402 LocalFree
+                         28D GetLastError
+                         509 RtlCaptureContext
+                         511 RtlLookupFunctionEntry
+                         518 RtlVirtualUnwind
+                         5FB UnhandledExceptionFilter
+                         5B8 SetUnhandledExceptionFilter
+                         241 GetCurrentProcess
+                         5D8 TerminateProcess
+                         3B8 IsProcessorFeaturePresent
+                         481 QueryPerformanceCounter
+                         242 GetCurrentProcessId
+                         246 GetCurrentThreadId
+                         31A GetSystemTimeAsFileTime
+                         39A InitializeSListHead
+                         3B0 IsDebuggerPresent
+                         301 GetStartupInfoW
+                         2A5 GetModuleHandleW
+                         517 RtlUnwindEx
+                         513 RtlPcToFileHeader
+                         498 RaiseException
+                         3A0 InterlockedPushEntrySList
+                         39E InterlockedFlushSList
+                         578 SetLastError
+                         153 EncodePointer
+                         157 EnterCriticalSection
+                         3F0 LeaveCriticalSection
+                         12F DeleteCriticalSection
+                         396 InitializeCriticalSectionAndSpinCount
+                         5EA TlsAlloc
+                         5EC TlsGetValue
+                         516 RtlUnwind
+
+    USER32.dll
+             1400DA758 Import Address Table
+             1400DB160 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         139 GetClientRect
+                         39B SetWindowTextA
+                          F9 EndPaint
+                          12 BeginPaint
+                          DE DrawTextA
+                          BC DialogBoxParamA
+                         3B0 ShowWindow
+                          B8 DestroyWindow
+                          78 CreateWindowExA
+                         2EB RegisterClassA
+                         2BC PostQuitMessage
+                          A9 DefWindowProcA
+                          BF DispatchMessageA
+                         3D1 TranslateMessage
+                         18E GetMessageA
+                         261 LoadBitmapA
+                         263 LoadCursorA
+                          45 CheckMenuRadioItem
+                         1F3 GetWindowLongA
+                         33E SetCursor
+                         391 SetWindowLongA
+                         310 ReleaseDC
+                         14A GetDC
+                         35E SetMenuDefaultItem
+                         3CB TrackPopupMenu
+                         1CF GetSubMenu
+                          ED EnableMenuItem
+                          44 CheckMenuItem
+                          B5 DestroyMenu
+                         26F LoadMenuA
+                         30F ReleaseCapture
+                         160 GetFocus
+                         322 SendDlgItemMessageA
+                         155 GetDlgItem
+                          F7 EndDialog
+                         327 SendMessageA
+                         294 MessageBoxIndirectA
+                         373 SetRect
+                         116 FillRect
+                         157 GetDlgItemTextA
+                         349 SetDlgItemTextA
+                         267 LoadIconA
+                         1D0 GetSysColor
+                         291 MessageBoxA
+                         14E GetDesktopWindow
+                         274 LoadStringA
+
+    GDI32.dll
+             1400DA128 Import Address Table
+             1400DAB30 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         290 GetDIBits
+                         194 DeleteObject
+                          5A CreateSolidBrush
+                         2E5 GetTextExtentPoint32A
+                         2D5 GetStockObject
+                         291 GetDeviceCaps
+                         2C1 GetObjectA
+
+    ADVAPI32.dll
+             1400DA000 Import Address Table
+             1400DAA08 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2A2 RegSetValueExA
+                         25C RegCreateKeyA
+                         262 RegDeleteKeyA
+                         26C RegDeleteValueA
+                         284 RegOpenKeyA
+                         292 RegQueryValueExA
+                         255 RegCloseKey
+
+    SHELL32.dll
+             1400DA6F0 Import Address Table
+             1400DB0F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         149 SHGetFileInfoA
+                         1AC ShellExecuteA
+
+    OLEAUT32.dll
+             1400DA638 Import Address Table
+             1400DB040 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal     9
+                             Ordinal     8
+                             Ordinal   150
+                             Ordinal   149
+                             Ordinal    10
+                             Ordinal   202
+                             Ordinal   201
+                             Ordinal    12
+                             Ordinal   200
+                             Ordinal     6
+
+    COMCTL32.dll
+             1400DA098 Import Address Table
+             1400DAAA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal    17
+                          55 ImageList_Destroy
+                             Ordinal     6
+                          70 ImageList_ReplaceIcon
+                          4E ImageList_Add
+                          54 ImageList_Create
+
+  Summary
+
+        1000 .00cfg
+        5000 .data
+        1000 .fptable
+        3000 .idata
+        8000 .pdata
+       2B000 .rdata
+        7000 .rsrc
+       A1000 .text
+Microsoft (R) COFF/PE Dumper Version 14.50.35720.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Gestion Entreprise_x64.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following exports for Gestion Entreprise_x64.exe
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         653 number of functions
+         653 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000037BA ??4CDlgPrintSetup@@QEAAAEAV0@AEBV0@@Z = @ILT+10165(??4CDlgPrintSetup@@QEAAAEAV0@AEBV0@@Z)
+          2    1 000026EE ??4Erreur@@QEAAAEAU0@$$QEAU0@@Z = @ILT+5865(??4Erreur@@QEAAAEAU0@$$QEAU0@@Z)
+          3    2 00002C11 ??4Erreur@@QEAAAEAU0@AEBU0@@Z = @ILT+7180(??4Erreur@@QEAAAEAU0@AEBU0@@Z)
+          5    3 00001339 ?AddNew@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+820(?AddNew@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+          6    4 00001E60 ?AddNew@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+3675(?AddNew@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+          9    5 000044EE ?Append@Fields@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z = @ILT+13545(?Append@Fields@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z)
+         10    6 00002AB8 ?Append@Fields_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z = @ILT+6835(?Append@Fields_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@AEBV_variant_t@@@Z)
+         11    7 000048EF ?Append@_DynaCollection@ADODB@@QEAAJPEAUIDispatch@@@Z = @ILT+14570(?Append@_DynaCollection@ADODB@@QEAAJPEAUIDispatch@@@Z)
+         12    8 000020C2 ?AppendChunk@Field15@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+4285(?AppendChunk@Field15@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         13    9 00001023 ?AppendChunk@Field15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+30(?AppendChunk@Field15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         14    A 00001CD0 ?AppendChunk@Field20@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+3275(?AppendChunk@Field20@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         15    B 00001096 ?AppendChunk@Field20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+145(?AppendChunk@Field20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         16    C 0000488B ?AppendChunk@_Parameter@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+14470(?AppendChunk@_Parameter@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         17    D 00001442 ?AppendChunk@_Parameter_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+1085(?AppendChunk@_Parameter_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         18    E 0000385F ?BeginTrans@Connection15@ADODB@@QEAAJXZ = @ILT+10330(?BeginTrans@Connection15@ADODB@@QEAAJXZ)
+         19    F 0000226B ?BeginTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+4710(?BeginTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         20   10 00004A02 ?BeginTransComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+14845(?BeginTransComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         21   11 0000506A ?BeginTransComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16485(?BeginTransComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         22   12 00001E38 ?BeginTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+3635(?BeginTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         23   13 00002351 ?BeginTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4940(?BeginTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         24   14 00004142 ?Cancel@Command25@ADODB@@QEAAJXZ = @ILT+12605(?Cancel@Command25@ADODB@@QEAAJXZ)
+         25   15 00002C61 ?Cancel@Command25_Deprecated@ADODB@@QEAAJXZ = @ILT+7260(?Cancel@Command25_Deprecated@ADODB@@QEAAJXZ)
+         26   16 00004903 ?Cancel@Recordset20@ADODB@@QEAAJXZ = @ILT+14590(?Cancel@Recordset20@ADODB@@QEAAJXZ)
+         27   17 000010FA ?Cancel@Recordset20_Deprecated@ADODB@@QEAAJXZ = @ILT+245(?Cancel@Recordset20_Deprecated@ADODB@@QEAAJXZ)
+         28   18 00003314 ?Cancel@_Connection@ADODB@@QEAAJXZ = @ILT+8975(?Cancel@_Connection@ADODB@@QEAAJXZ)
+         29   19 00003EEA ?Cancel@_Connection_Deprecated@ADODB@@QEAAJXZ = @ILT+12005(?Cancel@_Connection_Deprecated@ADODB@@QEAAJXZ)
+         30   1A 00002C66 ?Cancel@_Record@ADODB@@QEAAJXZ = @ILT+7265(?Cancel@_Record@ADODB@@QEAAJXZ)
+         31   1B 000045E3 ?Cancel@_Record_Deprecated@ADODB@@QEAAJXZ = @ILT+13790(?Cancel@_Record_Deprecated@ADODB@@QEAAJXZ)
+         32   1C 00002F04 ?Cancel@_Stream@ADODB@@QEAAJXZ = @ILT+7935(?Cancel@_Stream@ADODB@@QEAAJXZ)
+         33   1D 000028B5 ?Cancel@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+6320(?Cancel@_Stream_Deprecated@ADODB@@QEAAJXZ)
+         34   1E 000018D4 ?CancelBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+2255(?CancelBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         35   1F 00003C8D ?CancelBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+11400(?CancelBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         36   20 00002B7B ?CancelUpdate@Fields@ADODB@@QEAAJXZ = @ILT+7030(?CancelUpdate@Fields@ADODB@@QEAAJXZ)
+         37   21 0000495D ?CancelUpdate@Fields_Deprecated@ADODB@@QEAAJXZ = @ILT+14680(?CancelUpdate@Fields_Deprecated@ADODB@@QEAAJXZ)
+         38   22 00004C6E ?CancelUpdate@Recordset15@ADODB@@QEAAJXZ = @ILT+15465(?CancelUpdate@Recordset15@ADODB@@QEAAJXZ)
+         39   23 00002559 ?CancelUpdate@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+5460(?CancelUpdate@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+         43   24 0000308A ?Clear@Errors@ADODB@@QEAAJXZ = @ILT+8325(?Clear@Errors@ADODB@@QEAAJXZ)
+         44   25 00003166 ?Clone@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z = @ILT+8545(?Clone@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z)
+         45   26 0000109B ?Clone@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z = @ILT+150(?Clone@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4LockTypeEnum@2@@Z)
+         46   27 000017FD ?Close@Connection15@ADODB@@QEAAJXZ = @ILT+2040(?Close@Connection15@ADODB@@QEAAJXZ)
+         47   28 00004BBA ?Close@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+15285(?Close@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         48   29 00001785 ?Close@Recordset15@ADODB@@QEAAJXZ = @ILT+1920(?Close@Recordset15@ADODB@@QEAAJXZ)
+         49   2A 00001B40 ?Close@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2875(?Close@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+         50   2B 00003602 ?Close@_Record@ADODB@@QEAAJXZ = @ILT+9725(?Close@_Record@ADODB@@QEAAJXZ)
+         51   2C 00004458 ?Close@_Record_Deprecated@ADODB@@QEAAJXZ = @ILT+13395(?Close@_Record_Deprecated@ADODB@@QEAAJXZ)
+         52   2D 0000176C ?Close@_Stream@ADODB@@QEAAJXZ = @ILT+1895(?Close@_Stream@ADODB@@QEAAJXZ)
+         53   2E 0000399F ?Close@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+10650(?Close@_Stream_Deprecated@ADODB@@QEAAJXZ)
+         54   2F 00001B22 ?CommitTrans@Connection15@ADODB@@QEAAJXZ = @ILT+2845(?CommitTrans@Connection15@ADODB@@QEAAJXZ)
+         55   30 00004AE8 ?CommitTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+15075(?CommitTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+         56   31 00003D73 ?CommitTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+11630(?CommitTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         57   32 00003346 ?CommitTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+9025(?CommitTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         58   33 000021B7 ?CommitTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4530(?CommitTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         59   34 0000483B ?CommitTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+14390(?CommitTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         60   35 00002A68 ?CompareBookmarks@Recordset20@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z = @ILT+6755(?CompareBookmarks@Recordset20@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z)
+         61   36 000029D7 ?CompareBookmarks@Recordset20_Deprecated@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z = @ILT+6610(?CompareBookmarks@Recordset20_Deprecated@ADODB@@QEAA?AW4CompareEnum@2@AEBV_variant_t@@0@Z)
+         62   37 00003517 ?ConnectComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+9490(?ConnectComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         63   38 00002B67 ?ConnectComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+7010(?ConnectComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         64   39 0000421E ?ConnectComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+12825(?ConnectComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         65   3A 000047EB ?ConnectComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+14310(?ConnectComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         67   3B 00005231 ?CopyRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z = @ILT+16940(?CopyRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z)
+         68   3C 00004C3C ?CopyRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z = @ILT+15415(?CopyRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4CopyRecordOptionsEnum@2@F@Z)
+         69   3D 00002DDD ?CopyTo@_Stream@ADODB@@QEAAJPEAU12@J@Z = @ILT+7640(?CopyTo@_Stream@ADODB@@QEAAJPEAU12@J@Z)
+         70   3E 000037F6 ?CopyTo@_Stream_Deprecated@ADODB@@QEAAJPEAU12@J@Z = @ILT+10225(?CopyTo@_Stream_Deprecated@ADODB@@QEAAJPEAU12@J@Z)
+         73   3F 000020D6 ?CreateParameter@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z = @ILT+4305(?CreateParameter@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z)
+         74   40 00002671 ?CreateParameter@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z = @ILT+5740(?CreateParameter@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@W4DataTypeEnum@2@W4ParameterDirectionEnum@2@JAEBV_variant_t@@@Z)
+         87   41 00004FBB ?Delete@Fields20@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+16310(?Delete@Fields20@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         88   42 000030E4 ?Delete@Fields20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+8415(?Delete@Fields20_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         89   43 00003666 ?Delete@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+9825(?Delete@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         90   44 0000283D ?Delete@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+6200(?Delete@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+         91   45 000015FA ?Delete@_DynaCollection@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+1525(?Delete@_DynaCollection@ADODB@@QEAAJAEBV_variant_t@@@Z)
+         92   46 000041DD ?DeleteRecord@_Record@ADODB@@QEAAJV_bstr_t@@F@Z = @ILT+12760(?DeleteRecord@_Record@ADODB@@QEAAJV_bstr_t@@F@Z)
+         93   47 00002612 ?DeleteRecord@_Record_Deprecated@ADODB@@QEAAJV_bstr_t@@F@Z = @ILT+5645(?DeleteRecord@_Record_Deprecated@ADODB@@QEAAJV_bstr_t@@F@Z)
+         94   48 00002DBA ?Disconnect@ConnectionEvents@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+7605(?Disconnect@ConnectionEvents@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         95   49 00003A99 ?Disconnect@ConnectionEventsVt@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+10900(?Disconnect@ConnectionEventsVt@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+         96   4A 0000236F ?Disconnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+4970(?Disconnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+         97   4B 0000400C ?Disconnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+12295(?Disconnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        102   4C 000021C6 ?EndOfRecordset@RecordsetEvents@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4545(?EndOfRecordset@RecordsetEvents@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        103   4D 00002333 ?EndOfRecordset@RecordsetEventsVt@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4910(?EndOfRecordset@RecordsetEventsVt@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        104   4E 000034E0 ?EndOfRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+9435(?EndOfRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        105   4F 00002865 ?EndOfRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+6240(?EndOfRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAFPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        107   50 00003FD0 ?Execute@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z = @ILT+12235(?Execute@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z)
+        108   51 0000121C ?Execute@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z = @ILT+535(?Execute@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@0J@Z)
+        109   52 00002653 ?Execute@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z = @ILT+5710(?Execute@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z)
+        110   53 000038E6 ?Execute@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z = @ILT+10465(?Execute@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PEAUtagVARIANT@@J@Z)
+        111   54 00001037 ?ExecuteComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+50(?ExecuteComplete@ConnectionEvents@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        112   55 000049FD ?ExecuteComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+14840(?ExecuteComplete@ConnectionEventsVt@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        113   56 0000374C ?ExecuteComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+10055(?ExecuteComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        114   57 000051C3 ?ExecuteComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+16830(?ExecuteComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        116   58 000024E6 ?FetchComplete@RecordsetEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+5345(?FetchComplete@RecordsetEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        117   59 00001CF3 ?FetchComplete@RecordsetEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3310(?FetchComplete@RecordsetEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        118   5A 00001A6E ?FetchComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+2665(?FetchComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        119   5B 000036CF ?FetchComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+9930(?FetchComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        120   5C 00003E0E ?FetchProgress@RecordsetEvents@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+11785(?FetchProgress@RecordsetEvents@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        121   5D 00004FB1 ?FetchProgress@RecordsetEventsVt@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+16300(?FetchProgress@RecordsetEventsVt@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        122   5E 00002AEA ?FetchProgress@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+6885(?FetchProgress@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        123   5F 00003DFA ?FetchProgress@RecordsetEvents_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11765(?FetchProgress@RecordsetEvents_Deprecated@ADODB@@QEAAJJJPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        124   60 00001717 ?FieldChangeComplete@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+1810(?FieldChangeComplete@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        125   61 00003607 ?FieldChangeComplete@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+9730(?FieldChangeComplete@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        126   62 0000287E ?FieldChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+6265(?FieldChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        127   63 00004877 ?FieldChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+14450(?FieldChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        128   64 00001A5A ?Find@Recordset15@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z = @ILT+2645(?Find@Recordset15@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z)
+        129   65 00002C39 ?Find@Recordset15_Deprecated@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z = @ILT+7220(?Find@Recordset15_Deprecated@ADODB@@QEAAJV_bstr_t@@JW4SearchDirectionEnum@2@AEBV_variant_t@@@Z)
+        130   66 0000519B ?Flush@_Stream@ADODB@@QEAAJXZ = @ILT+16790(?Flush@_Stream@ADODB@@QEAAJXZ)
+        131   67 00003747 ?Flush@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+10050(?Flush@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        132   68 0000190B ?GetAbsolutePage@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ = @ILT+2310(?GetAbsolutePage@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ)
+        133   69 0000245F ?GetAbsolutePage@Recordset15_Deprecated@ADODB@@QEAA?AW4PositionEnum@@XZ = @ILT+5210(?GetAbsolutePage@Recordset15_Deprecated@ADODB@@QEAA?AW4PositionEnum@@XZ)
+        134   6A 00004F98 ?GetAbsolutePosition@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ = @ILT+16275(?GetAbsolutePosition@Recordset15@ADODB@@QEAA?AW4PositionEnum@2@XZ)
+        135   6B 00002CA7 ?GetActiveCommand@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7330(?GetActiveCommand@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        136   6C 000033B9 ?GetActiveCommand@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+9140(?GetActiveCommand@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        137   6D 0000508D ?GetActiveConnection@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection@ADODB@@$1?_GUID_00001550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+16520(?GetActiveConnection@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection@ADODB@@$1?_GUID_00001550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        138   6E 00002757 ?GetActiveConnection@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection_Deprecated@ADODB@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5970(?GetActiveConnection@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Connection_Deprecated@ADODB@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        139   6F 00001325 ?GetActiveConnection@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+800(?GetActiveConnection@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        140   70 00004F20 ?GetActiveConnection@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+16155(?GetActiveConnection@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        141   71 000027E3 ?GetActiveConnection@_Record@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+6110(?GetActiveConnection@_Record@ADODB@@QEAA?AV_variant_t@@XZ)
+        142   72 000033F0 ?GetActiveConnection@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+9195(?GetActiveConnection@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        143   73 000036F2 ?GetActualSize@Field15@ADODB@@QEAAJXZ = @ILT+9965(?GetActualSize@Field15@ADODB@@QEAAJXZ)
+        144   74 00003931 ?GetActualSize@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+10540(?GetActualSize@Field15_Deprecated@ADODB@@QEAAJXZ)
+        145   75 0000456B ?GetActualSize@Field20@ADODB@@QEAAJXZ = @ILT+13670(?GetActualSize@Field20@ADODB@@QEAAJXZ)
+        146   76 00003210 ?GetActualSize@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+8715(?GetActualSize@Field20_Deprecated@ADODB@@QEAAJXZ)
+        150   77 00003B20 ?GetAttributes@Connection15@ADODB@@QEAAJXZ = @ILT+11035(?GetAttributes@Connection15@ADODB@@QEAAJXZ)
+        151   78 00004741 ?GetAttributes@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+14140(?GetAttributes@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        152   79 00001FCD ?GetAttributes@Field15@ADODB@@QEAAJXZ = @ILT+4040(?GetAttributes@Field15@ADODB@@QEAAJXZ)
+        153   7A 00001041 ?GetAttributes@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+60(?GetAttributes@Field15_Deprecated@ADODB@@QEAAJXZ)
+        154   7B 000032AB ?GetAttributes@Field20@ADODB@@QEAAJXZ = @ILT+8870(?GetAttributes@Field20@ADODB@@QEAAJXZ)
+        155   7C 00002EAA ?GetAttributes@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+7845(?GetAttributes@Field20_Deprecated@ADODB@@QEAAJXZ)
+        156   7D 0000110E ?GetAttributes@Property@ADODB@@QEAAJXZ = @ILT+265(?GetAttributes@Property@ADODB@@QEAAJXZ)
+        157   7E 000015C8 ?GetAttributes@_Parameter@ADODB@@QEAAJXZ = @ILT+1475(?GetAttributes@_Parameter@ADODB@@QEAAJXZ)
+        158   7F 00001F05 ?GetAttributes@_Parameter_Deprecated@ADODB@@QEAAJXZ = @ILT+3840(?GetAttributes@_Parameter_Deprecated@ADODB@@QEAAJXZ)
+        159   80 00003738 ?GetBOF@Recordset15@ADODB@@QEAAFXZ = @ILT+10035(?GetBOF@Recordset15@ADODB@@QEAAFXZ)
+        160   81 00004642 ?GetBOF@Recordset15_Deprecated@ADODB@@QEAAFXZ = @ILT+13885(?GetBOF@Recordset15_Deprecated@ADODB@@QEAAFXZ)
+        161   82 00001299 ?GetBookmark@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+660(?GetBookmark@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        162   83 00002F68 ?GetBookmark@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8035(?GetBookmark@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        163   84 00004D31 ?GetCacheSize@Recordset15@ADODB@@QEAAJXZ = @ILT+15660(?GetCacheSize@Recordset15@ADODB@@QEAAJXZ)
+        164   85 0000307B ?GetCacheSize@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+8310(?GetCacheSize@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        165   86 00003B89 ?GetChapter@ADORecordsetConstruction@ADODB@@QEAAJXZ = @ILT+11140(?GetChapter@ADORecordsetConstruction@ADODB@@QEAAJXZ)
+        166   87 0000208B ?GetCharset@_Stream@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4230(?GetCharset@_Stream@ADODB@@QEAA?AV_bstr_t@@XZ)
+        167   88 00004A1B ?GetCharset@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14870(?GetCharset@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        168   89 0000273E ?GetChildren@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5945(?GetChildren@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        169   8A 00003021 ?GetChildren@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+8220(?GetChildren@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        170   8B 00004F5C ?GetChunk@Field15@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+16215(?GetChunk@Field15@ADODB@@QEAA?AV_variant_t@@J@Z)
+        171   8C 000046EC ?GetChunk@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+14055(?GetChunk@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        172   8D 00001A19 ?GetChunk@Field20@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+2580(?GetChunk@Field20@ADODB@@QEAA?AV_variant_t@@J@Z)
+        173   8E 000039C7 ?GetChunk@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+10690(?GetChunk@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        175   8F 00001659 ?GetCollect@Recordset15@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z = @ILT+1620(?GetCollect@Recordset15@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z)
+        176   90 000025B8 ?GetCollect@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z = @ILT+5555(?GetCollect@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@AEBV3@@Z)
+        177   91 00004B5B ?GetCommandStream@_Command@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+15190(?GetCommandStream@_Command@ADODB@@QEAA?AV_variant_t@@XZ)
+        178   92 000047AA ?GetCommandStream@_Command_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+14245(?GetCommandStream@_Command_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        179   93 00004C7D ?GetCommandText@Command15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+15480(?GetCommandText@Command15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        180   94 000033AA ?GetCommandText@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+9125(?GetCommandText@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        181   95 000025F9 ?GetCommandTimeout@Command15@ADODB@@QEAAJXZ = @ILT+5620(?GetCommandTimeout@Command15@ADODB@@QEAAJXZ)
+        182   96 000030D5 ?GetCommandTimeout@Command15_Deprecated@ADODB@@QEAAJXZ = @ILT+8400(?GetCommandTimeout@Command15_Deprecated@ADODB@@QEAAJXZ)
+        183   97 00004395 ?GetCommandTimeout@Connection15@ADODB@@QEAAJXZ = @ILT+13200(?GetCommandTimeout@Connection15@ADODB@@QEAAJXZ)
+        184   98 000046C4 ?GetCommandTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+14015(?GetCommandTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        185   99 000036BB ?GetCommandType@Command15@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ = @ILT+9910(?GetCommandType@Command15@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ)
+        186   9A 00003918 ?GetCommandType@Command15_Deprecated@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ = @ILT+10515(?GetCommandType@Command15_Deprecated@ADODB@@QEAA?AW4CommandTypeEnum@2@XZ)
+        187   9B 00001D52 ?GetConnectionString@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+3405(?GetConnectionString@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        188   9C 00003E13 ?GetConnectionString@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11790(?GetConnectionString@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        189   9D 0000411A ?GetConnectionTimeout@Connection15@ADODB@@QEAAJXZ = @ILT+12565(?GetConnectionTimeout@Connection15@ADODB@@QEAAJXZ)
+        190   9E 00004192 ?GetConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+12685(?GetConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        191   9F 0000417E ?GetCount@_Collection@ADODB@@QEAAJXZ = @ILT+12665(?GetCount@_Collection@ADODB@@QEAAJXZ)
+        192   A0 00002199 ?GetCursorLocation@Connection15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+4500(?GetCursorLocation@Connection15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        193   A1 000044AD ?GetCursorLocation@Connection15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+13480(?GetCursorLocation@Connection15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        194   A2 00001762 ?GetCursorLocation@Recordset15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+1885(?GetCursorLocation@Recordset15@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        195   A3 000050A6 ?GetCursorLocation@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ = @ILT+16545(?GetCursorLocation@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorLocationEnum@2@XZ)
+        196   A4 000043EA ?GetCursorType@Recordset15@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ = @ILT+13285(?GetCursorType@Recordset15@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ)
+        197   A5 0000209A ?GetCursorType@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ = @ILT+4245(?GetCursorType@Recordset15_Deprecated@ADODB@@QEAA?AW4CursorTypeEnum@2@XZ)
+        198   A6 000020EA ?GetDSO@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4325(?GetDSO@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        199   A7 000027FC ?GetDataFormat@Field20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+6135(?GetDataFormat@Field20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        200   A8 0000423C ?GetDataFormat@Field20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+12855(?GetDataFormat@Field20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        201   A9 00003DA5 ?GetDataMember@Recordset20@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11680(?GetDataMember@Recordset20@ADODB@@QEAA?AV_bstr_t@@XZ)
+        202   AA 000044DA ?GetDataMember@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13525(?GetDataMember@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        203   AB 00002F40 ?GetDataSource@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7995(?GetDataSource@Recordset20@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        204   AC 00002329 ?GetDataSource@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4900(?GetDataSource@Recordset20_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        205   AD 0000436D ?GetDefaultDatabase@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13160(?GetDefaultDatabase@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        206   AE 000021E4 ?GetDefaultDatabase@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4575(?GetDefaultDatabase@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        207   AF 00002D65 ?GetDefinedSize@Field15@ADODB@@QEAAJXZ = @ILT+7520(?GetDefinedSize@Field15@ADODB@@QEAAJXZ)
+        208   B0 00004999 ?GetDefinedSize@Field15_Deprecated@ADODB@@QEAAJXZ = @ILT+14740(?GetDefinedSize@Field15_Deprecated@ADODB@@QEAAJXZ)
+        209   B1 0000274D ?GetDefinedSize@Field20@ADODB@@QEAAJXZ = @ILT+5960(?GetDefinedSize@Field20@ADODB@@QEAAJXZ)
+        210   B2 00004D6D ?GetDefinedSize@Field20_Deprecated@ADODB@@QEAAJXZ = @ILT+15720(?GetDefinedSize@Field20_Deprecated@ADODB@@QEAAJXZ)
+        211   B3 00001131 ?GetDescription@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+300(?GetDescription@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        212   B4 0000416F ?GetDialect@_Command@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12650(?GetDialect@_Command@ADODB@@QEAA?AV_bstr_t@@XZ)
+        213   B5 000037CE ?GetDialect@_Command_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+10185(?GetDialect@_Command_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        214   B6 00005141 ?GetDirection@_Parameter@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ = @ILT+16700(?GetDirection@_Parameter@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ)
+        215   B7 00001767 ?GetDirection@_Parameter_Deprecated@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ = @ILT+1890(?GetDirection@_Parameter_Deprecated@ADODB@@QEAA?AW4ParameterDirectionEnum@2@XZ)
+        216   B8 00003035 ?GetEOS@_Stream@ADODB@@QEAAFXZ = @ILT+8240(?GetEOS@_Stream@ADODB@@QEAAFXZ)
+        217   B9 00002FD6 ?GetEOS@_Stream_Deprecated@ADODB@@QEAAFXZ = @ILT+8145(?GetEOS@_Stream_Deprecated@ADODB@@QEAAFXZ)
+        218   BA 00001582 ?GetEditMode@Recordset15@ADODB@@QEAA?AW4EditModeEnum@2@XZ = @ILT+1405(?GetEditMode@Recordset15@ADODB@@QEAA?AW4EditModeEnum@2@XZ)
+        219   BB 00001852 ?GetEditMode@Recordset15_Deprecated@ADODB@@QEAA?AW4EditModeEnum@2@XZ = @ILT+2125(?GetEditMode@Recordset15_Deprecated@ADODB@@QEAA?AW4EditModeEnum@2@XZ)
+        220   BC 00002CED ?GetEndOfFile@Recordset15@ADODB@@QEAAFXZ = @ILT+7400(?GetEndOfFile@Recordset15@ADODB@@QEAAFXZ)
+        221   BD 000015B4 ?GetEndOfFile@Recordset15_Deprecated@ADODB@@QEAAFXZ = @ILT+1455(?GetEndOfFile@Recordset15_Deprecated@ADODB@@QEAAFXZ)
+        222   BE 000017DA ?GetErrors@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+2005(?GetErrors@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        223   BF 00004D45 ?GetErrors@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+15680(?GetErrors@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UErrors@ADODB@@$1?_GUID_00000501_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        224   C0 0000242D ?GetFields@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5160(?GetFields@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        225   C1 000024D2 ?GetFields@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5325(?GetFields@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        226   C2 00001280 ?GetFields@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+635(?GetFields@_Record@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields@ADODB@@$1?_GUID_00001564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        227   C3 00003CF1 ?GetFields@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+11500(?GetFields@_Record_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UFields_Deprecated@ADODB@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        228   C4 000034CC ?GetFilter@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+9415(?GetFilter@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        229   C5 000012E4 ?GetFilter@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+735(?GetFilter@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        230   C6 0000201D ?GetHelpContext@Error@ADODB@@QEAAJXZ = @ILT+4120(?GetHelpContext@Error@ADODB@@QEAAJXZ)
+        231   C7 00004CAA ?GetHelpFile@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+15525(?GetHelpFile@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        232   C8 00004D1D ?GetIndex@Recordset21@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+15640(?GetIndex@Recordset21@ADODB@@QEAA?AV_bstr_t@@XZ)
+        233   C9 0000243C ?GetIndex@Recordset21_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+5175(?GetIndex@Recordset21_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        234   CA 00001901 ?GetIsolationLevel@Connection15@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ = @ILT+2300(?GetIsolationLevel@Connection15@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ)
+        235   CB 000016D1 ?GetIsolationLevel@Connection15_Deprecated@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ = @ILT+1740(?GetIsolationLevel@Connection15_Deprecated@ADODB@@QEAA?AW4IsolationLevelEnum@2@XZ)
+        236   CC 00001861 ?GetItem@Errors@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UError@ADODB@@$1?_GUID_00000500_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+2140(?GetItem@Errors@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UError@ADODB@@$1?_GUID_00000500_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        237   CD 00002F77 ?GetItem@Fields15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField@ADODB@@$1?_GUID_00001569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+8050(?GetItem@Fields15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField@ADODB@@$1?_GUID_00001569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        238   CE 00004DFE ?GetItem@Fields15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField_Deprecated@ADODB@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+15865(?GetItem@Fields15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UField_Deprecated@ADODB@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        239   CF 00002FE5 ?GetItem@Parameters@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+8160(?GetItem@Parameters@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter@ADODB@@$1?_GUID_0000150c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        240   D0 00001983 ?GetItem@Parameters_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z = @ILT+2430(?GetItem@Parameters_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Parameter_Deprecated@ADODB@@$1?_GUID_0000050c_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@AEBV_variant_t@@@Z)
+        241   D1 00004E8A ?GetLineSeparator@_Stream@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ = @ILT+16005(?GetLineSeparator@_Stream@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ)
+        242   D2 00002617 ?GetLineSeparator@_Stream_Deprecated@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ = @ILT+5650(?GetLineSeparator@_Stream_Deprecated@ADODB@@QEAA?AW4LineSeparatorEnum@2@XZ)
+        243   D3 00002045 ?GetLockType@Recordset15@ADODB@@QEAA?AW4LockTypeEnum@2@XZ = @ILT+4160(?GetLockType@Recordset15@ADODB@@QEAA?AW4LockTypeEnum@2@XZ)
+        244   D4 00004151 ?GetLockType@Recordset15_Deprecated@ADODB@@QEAA?AW4LockTypeEnum@2@XZ = @ILT+12620(?GetLockType@Recordset15_Deprecated@ADODB@@QEAA?AW4LockTypeEnum@2@XZ)
+        245   D5 0000466A ?GetMarshalOptions@Recordset15@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ = @ILT+13925(?GetMarshalOptions@Recordset15@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ)
+        246   D6 000012B7 ?GetMarshalOptions@Recordset15_Deprecated@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ = @ILT+690(?GetMarshalOptions@Recordset15_Deprecated@ADODB@@QEAA?AW4MarshalOptionsEnum@2@XZ)
+        247   D7 00003D2D ?GetMaxRecords@Recordset15@ADODB@@QEAAJXZ = @ILT+11560(?GetMaxRecords@Recordset15@ADODB@@QEAAJXZ)
+        248   D8 00001988 ?GetMaxRecords@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2435(?GetMaxRecords@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        250   D9 00002B3A ?GetMode@Connection15@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+6965(?GetMode@Connection15@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        251   DA 00001DCF ?GetMode@Connection15_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+3530(?GetMode@Connection15_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        252   DB 00002E46 ?GetMode@_Record@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+7745(?GetMode@_Record@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        253   DC 0000507E ?GetMode@_Record_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+16505(?GetMode@_Record_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        254   DD 00001942 ?GetMode@_Stream@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+2365(?GetMode@_Stream@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        255   DE 00002685 ?GetMode@_Stream_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ = @ILT+5760(?GetMode@_Stream_Deprecated@ADODB@@QEAA?AW4ConnectModeEnum@2@XZ)
+        256   DF 00003C83 ?GetName@Command15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11390(?GetName@Command15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        257   E0 00003C51 ?GetName@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11340(?GetName@Command15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        258   E1 00004921 ?GetName@Field15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+14620(?GetName@Field15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        259   E2 00002716 ?GetName@Field15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+5905(?GetName@Field15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        260   E3 000020E0 ?GetName@Field20@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+4315(?GetName@Field20@ADODB@@QEAA?AV_bstr_t@@XZ)
+        261   E4 0000311B ?GetName@Field20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+8470(?GetName@Field20_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        262   E5 00003E9F ?GetName@Property@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11930(?GetName@Property@ADODB@@QEAA?AV_bstr_t@@XZ)
+        263   E6 000014E7 ?GetName@_Parameter@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+1250(?GetName@_Parameter@ADODB@@QEAA?AV_bstr_t@@XZ)
+        264   E7 00004AC0 ?GetName@_Parameter_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+15035(?GetName@_Parameter_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        265   E8 000038B9 ?GetNamedParameters@_Command@ADODB@@QEAAFXZ = @ILT+10420(?GetNamedParameters@_Command@ADODB@@QEAAFXZ)
+        266   E9 00004129 ?GetNamedParameters@_Command_Deprecated@ADODB@@QEAAFXZ = @ILT+12580(?GetNamedParameters@_Command_Deprecated@ADODB@@QEAAFXZ)
+        267   EA 000020D1 ?GetNativeError@Error@ADODB@@QEAAJXZ = @ILT+4300(?GetNativeError@Error@ADODB@@QEAAJXZ)
+        268   EB 00004534 ?GetNumber@Error@ADODB@@QEAAJXZ = @ILT+13615(?GetNumber@Error@ADODB@@QEAAJXZ)
+        269   EC 000043E0 ?GetNumericScale@Field15@ADODB@@QEAAEXZ = @ILT+13275(?GetNumericScale@Field15@ADODB@@QEAAEXZ)
+        270   ED 00005191 ?GetNumericScale@Field15_Deprecated@ADODB@@QEAAEXZ = @ILT+16780(?GetNumericScale@Field15_Deprecated@ADODB@@QEAAEXZ)
+        271   EE 00002775 ?GetNumericScale@Field20@ADODB@@QEAAEXZ = @ILT+6000(?GetNumericScale@Field20@ADODB@@QEAAEXZ)
+        272   EF 000036ED ?GetNumericScale@Field20_Deprecated@ADODB@@QEAAEXZ = @ILT+9960(?GetNumericScale@Field20_Deprecated@ADODB@@QEAAEXZ)
+        273   F0 00004935 ?GetNumericScale@_Parameter@ADODB@@QEAAEXZ = @ILT+14640(?GetNumericScale@_Parameter@ADODB@@QEAAEXZ)
+        274   F1 00003F03 ?GetNumericScale@_Parameter_Deprecated@ADODB@@QEAAEXZ = @ILT+12030(?GetNumericScale@_Parameter_Deprecated@ADODB@@QEAAEXZ)
+        275   F2 00002167 ?GetOLEDBCommand@ADOCommandConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+4450(?GetOLEDBCommand@ADOCommandConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        276   F3 0000478C ?GetOriginalValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+14215(?GetOriginalValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        277   F4 00001E3D ?GetOriginalValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+3640(?GetOriginalValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        278   F5 00003D7D ?GetOriginalValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+11640(?GetOriginalValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        279   F6 0000139D ?GetOriginalValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+920(?GetOriginalValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        280   F7 000038AA ?GetPageCount@Recordset15@ADODB@@QEAAJXZ = @ILT+10405(?GetPageCount@Recordset15@ADODB@@QEAAJXZ)
+        281   F8 000019A6 ?GetPageCount@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+2465(?GetPageCount@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        282   F9 00003D3C ?GetPageSize@Recordset15@ADODB@@QEAAJXZ = @ILT+11575(?GetPageSize@Recordset15@ADODB@@QEAAJXZ)
+        283   FA 000015D2 ?GetPageSize@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+1485(?GetPageSize@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        284   FB 00003369 ?GetParameters@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters@ADODB@@$1?_GUID_0000150d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+9060(?GetParameters@Command15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters@ADODB@@$1?_GUID_0000150d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        285   FC 00002036 ?GetParameters@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters_Deprecated@ADODB@@$1?_GUID_0000050d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+4145(?GetParameters@Command15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UParameters_Deprecated@ADODB@@$1?_GUID_0000050d_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        286   FD 00002B17 ?GetParentURL@_Record@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+6930(?GetParentURL@_Record@ADODB@@QEAA?AV_bstr_t@@XZ)
+        287   FE 00003652 ?GetParentURL@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+9805(?GetParentURL@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        288   FF 00002923 ?GetPosition@_Stream@ADODB@@QEAAJXZ = @ILT+6430(?GetPosition@_Stream@ADODB@@QEAAJXZ)
+        289  100 000034E5 ?GetPosition@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+9440(?GetPosition@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        290  101 00003D1E ?GetPrecision@Field15@ADODB@@QEAAEXZ = @ILT+11545(?GetPrecision@Field15@ADODB@@QEAAEXZ)
+        291  102 00003328 ?GetPrecision@Field15_Deprecated@ADODB@@QEAAEXZ = @ILT+8995(?GetPrecision@Field15_Deprecated@ADODB@@QEAAEXZ)
+        292  103 00003D55 ?GetPrecision@Field20@ADODB@@QEAAEXZ = @ILT+11600(?GetPrecision@Field20@ADODB@@QEAAEXZ)
+        293  104 00003954 ?GetPrecision@Field20_Deprecated@ADODB@@QEAAEXZ = @ILT+10575(?GetPrecision@Field20_Deprecated@ADODB@@QEAAEXZ)
+        294  105 00002FF4 ?GetPrecision@_Parameter@ADODB@@QEAAEXZ = @ILT+8175(?GetPrecision@_Parameter@ADODB@@QEAAEXZ)
+        295  106 0000203B ?GetPrecision@_Parameter_Deprecated@ADODB@@QEAAEXZ = @ILT+4150(?GetPrecision@_Parameter_Deprecated@ADODB@@QEAAEXZ)
+        296  107 00003F8A ?GetPrepared@Command15@ADODB@@QEAAFXZ = @ILT+12165(?GetPrepared@Command15@ADODB@@QEAAFXZ)
+        297  108 00002A0E ?GetPrepared@Command15_Deprecated@ADODB@@QEAAFXZ = @ILT+6665(?GetPrepared@Command15_Deprecated@ADODB@@QEAAFXZ)
+        298  109 00001EBA ?GetProvider@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+3765(?GetProvider@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        299  10A 00003BD9 ?GetProvider@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+11220(?GetProvider@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        300  10B 0000511E ?GetRecordCount@Recordset15@ADODB@@QEAAJXZ = @ILT+16665(?GetRecordCount@Recordset15@ADODB@@QEAAJXZ)
+        301  10C 00001FEB ?GetRecordCount@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+4070(?GetRecordCount@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        302  10D 000044C6 ?GetRecordType@_Record@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ = @ILT+13505(?GetRecordType@_Record@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ)
+        303  10E 00003D0F ?GetRecordType@_Record_Deprecated@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ = @ILT+11530(?GetRecordType@_Record_Deprecated@ADODB@@QEAA?AW4RecordTypeEnum@2@XZ)
+        304  10F 00002F0E ?GetRow@ADORecordConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7945(?GetRow@ADORecordConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        305  110 00003625 ?GetRowPosition@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+9760(?GetRowPosition@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        306  111 00001F73 ?GetRows@Recordset15@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z = @ILT+3950(?GetRows@Recordset15@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z)
+        307  112 00002220 ?GetRows@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z = @ILT+4635(?GetRows@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@JAEBV3@0@Z)
+        308  113 00004593 ?GetRowset@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+13710(?GetRowset@ADORecordsetConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        309  114 00004255 ?GetSQLState@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+12880(?GetSQLState@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        310  115 00001EB0 ?GetSession@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+3755(?GetSession@ADOConnectionConstruction15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        311  116 000049DA ?GetSize@_Parameter@ADODB@@QEAAJXZ = @ILT+14805(?GetSize@_Parameter@ADODB@@QEAAJXZ)
+        312  117 0000371F ?GetSize@_Parameter_Deprecated@ADODB@@QEAAJXZ = @ILT+10010(?GetSize@_Parameter_Deprecated@ADODB@@QEAAJXZ)
+        313  118 0000155A ?GetSize@_Stream@ADODB@@QEAAJXZ = @ILT+1365(?GetSize@_Stream@ADODB@@QEAAJXZ)
+        314  119 00002F8B ?GetSize@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+8070(?GetSize@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        315  11A 000045C0 ?GetSort@Recordset15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13755(?GetSort@Recordset15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        316  11B 0000448A ?GetSort@Recordset15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+13445(?GetSort@Recordset15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        317  11C 000038F5 ?GetSource@Error@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+10480(?GetSource@Error@ADODB@@QEAA?AV_bstr_t@@XZ)
+        318  11D 0000394A ?GetSource@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+10565(?GetSource@Recordset15@ADODB@@QEAA?AV_variant_t@@XZ)
+        319  11E 000030DA ?GetSource@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8405(?GetSource@Recordset15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        320  11F 0000290F ?GetSource@_Record@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+6410(?GetSource@_Record@ADODB@@QEAA?AV_variant_t@@XZ)
+        321  120 00004057 ?GetSource@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+12370(?GetSource@_Record_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        322  121 00002E41 ?GetState@Command25@ADODB@@QEAAJXZ = @ILT+7740(?GetState@Command25@ADODB@@QEAAJXZ)
+        323  122 00001AEB ?GetState@Command25_Deprecated@ADODB@@QEAAJXZ = @ILT+2790(?GetState@Command25_Deprecated@ADODB@@QEAAJXZ)
+        324  123 00001C71 ?GetState@Connection15@ADODB@@QEAAJXZ = @ILT+3180(?GetState@Connection15@ADODB@@QEAAJXZ)
+        325  124 00001F50 ?GetState@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+3915(?GetState@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        326  125 000049CB ?GetState@Recordset15@ADODB@@QEAAJXZ = @ILT+14790(?GetState@Recordset15@ADODB@@QEAAJXZ)
+        327  126 000045B1 ?GetState@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+13740(?GetState@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        328  127 00004D63 ?GetState@_Record@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+15710(?GetState@_Record@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        329  128 0000310C ?GetState@_Record_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+8455(?GetState@_Record_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        330  129 00002225 ?GetState@_Stream@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+4640(?GetState@_Stream@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        331  12A 00003BF7 ?GetState@_Stream_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ = @ILT+11250(?GetState@_Stream_Deprecated@ADODB@@QEAA?AW4ObjectStateEnum@2@XZ)
+        332  12B 000046BA ?GetStatus@Field@ADODB@@QEAAJXZ = @ILT+14005(?GetStatus@Field@ADODB@@QEAAJXZ)
+        333  12C 00001A46 ?GetStatus@Field_Deprecated@ADODB@@QEAAJXZ = @ILT+2625(?GetStatus@Field_Deprecated@ADODB@@QEAAJXZ)
+        334  12D 00003710 ?GetStatus@Recordset15@ADODB@@QEAAJXZ = @ILT+9995(?GetStatus@Recordset15@ADODB@@QEAAJXZ)
+        335  12E 00003B52 ?GetStatus@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+11085(?GetStatus@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        336  12F 00002DC9 ?GetStayInSync@Recordset20@ADODB@@QEAAFXZ = @ILT+7620(?GetStayInSync@Recordset20@ADODB@@QEAAFXZ)
+        337  130 0000234C ?GetStayInSync@Recordset20_Deprecated@ADODB@@QEAAFXZ = @ILT+4935(?GetStayInSync@Recordset20_Deprecated@ADODB@@QEAAFXZ)
+        338  131 000047B4 ?GetStream@ADOStreamConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+14255(?GetStream@ADOStreamConstruction@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        339  132 00003008 ?GetString@Recordset20@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z = @ILT+8195(?GetString@Recordset20@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z)
+        340  133 000022F7 ?GetString@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z = @ILT+4850(?GetString@Recordset20_Deprecated@ADODB@@QEAA?AV_bstr_t@@W4StringFormatEnum@2@JV3@11@Z)
+        342  134 00004FC5 ?GetType@Field15@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+16320(?GetType@Field15@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        343  135 00004C28 ?GetType@Field15_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+15395(?GetType@Field15_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        344  136 00002C16 ?GetType@Field20@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+7185(?GetType@Field20@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        345  137 00001B5E ?GetType@Field20_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+2905(?GetType@Field20_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        346  138 00002D92 ?GetType@Property@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+7565(?GetType@Property@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        347  139 00001203 ?GetType@_Parameter@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+510(?GetType@_Parameter@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        348  13A 00004859 ?GetType@_Parameter_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ = @ILT+14420(?GetType@_Parameter_Deprecated@ADODB@@QEAA?AW4DataTypeEnum@2@XZ)
+        349  13B 000018F2 ?GetType@_Stream@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ = @ILT+2285(?GetType@_Stream@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ)
+        350  13C 00001A87 ?GetType@_Stream_Deprecated@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ = @ILT+2690(?GetType@_Stream_Deprecated@ADODB@@QEAA?AW4StreamTypeEnum@2@XZ)
+        351  13D 00004174 ?GetUnderlyingValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+12655(?GetUnderlyingValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        352  13E 000023B5 ?GetUnderlyingValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+5040(?GetUnderlyingValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        353  13F 00003CA1 ?GetUnderlyingValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+11420(?GetUnderlyingValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        354  140 00001177 ?GetUnderlyingValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+370(?GetUnderlyingValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        355  141 00004791 ?GetValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+14220(?GetValue@Field15@ADODB@@QEAA?AV_variant_t@@XZ)
+        356  142 0000255E ?GetValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+5465(?GetValue@Field15_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        357  143 00004D18 ?GetValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+15635(?GetValue@Field20@ADODB@@QEAA?AV_variant_t@@XZ)
+        358  144 0000327E ?GetValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8825(?GetValue@Field20_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        359  145 00001F82 ?GetValue@Property@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+3965(?GetValue@Property@ADODB@@QEAA?AV_variant_t@@XZ)
+        360  146 00003986 ?GetValue@_Parameter@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+10625(?GetValue@_Parameter@ADODB@@QEAA?AV_variant_t@@XZ)
+        361  147 00003049 ?GetValue@_Parameter_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ = @ILT+8260(?GetValue@_Parameter_Deprecated@ADODB@@QEAA?AV_variant_t@@XZ)
+        362  148 00004D8B ?GetVersion@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+15750(?GetVersion@Connection15@ADODB@@QEAA?AV_bstr_t@@XZ)
+        363  149 00002E5F ?GetVersion@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ = @ILT+7770(?GetVersion@Connection15_Deprecated@ADODB@@QEAA?AV_bstr_t@@XZ)
+        364  14A 000AE300 ?IID_ISQLServerEnumerator@MsSQL@@3U_GUID@@B = ?IID_ISQLServerEnumerator@MsSQL@@3U_GUID@@B (struct _GUID const MsSQL::IID_ISQLServerEnumerator)
+        365  14B 0000254A ?InfoMessage@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+5445(?InfoMessage@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        366  14C 00005132 ?InfoMessage@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16685(?InfoMessage@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        367  14D 0000149C ?InfoMessage@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1175(?InfoMessage@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        368  14E 000014D3 ?InfoMessage@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1230(?InfoMessage@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        383  14F 00001A1E ?LoadFromFile@_Stream@ADODB@@QEAAJV_bstr_t@@@Z = @ILT+2585(?LoadFromFile@_Stream@ADODB@@QEAAJV_bstr_t@@@Z)
+        384  150 00003891 ?LoadFromFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@@Z = @ILT+10380(?LoadFromFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@@Z)
+        386  151 000046DD ?Move@Recordset15@ADODB@@QEAAJJAEBV_variant_t@@@Z = @ILT+14040(?Move@Recordset15@ADODB@@QEAAJJAEBV_variant_t@@@Z)
+        387  152 000021DA ?Move@Recordset15_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@@Z = @ILT+4565(?Move@Recordset15_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@@Z)
+        388  153 00001DB6 ?MoveComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3505(?MoveComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        389  154 00002815 ?MoveComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+6160(?MoveComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        390  155 00004CD2 ?MoveComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+15565(?MoveComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        391  156 00003ECC ?MoveComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11975(?MoveComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        392  157 0000358F ?MoveFirst@Recordset15@ADODB@@QEAAJXZ = @ILT+9610(?MoveFirst@Recordset15@ADODB@@QEAAJXZ)
+        393  158 0000161D ?MoveFirst@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+1560(?MoveFirst@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        394  159 00003F5D ?MoveLast@Recordset15@ADODB@@QEAAJXZ = @ILT+12120(?MoveLast@Recordset15@ADODB@@QEAAJXZ)
+        395  15A 000024F5 ?MoveLast@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+5360(?MoveLast@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        396  15B 00001FAF ?MoveNext@Recordset15@ADODB@@QEAAJXZ = @ILT+4010(?MoveNext@Recordset15@ADODB@@QEAAJXZ)
+        397  15C 00002B26 ?MoveNext@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+6945(?MoveNext@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        398  15D 00003305 ?MovePrevious@Recordset15@ADODB@@QEAAJXZ = @ILT+8960(?MovePrevious@Recordset15@ADODB@@QEAAJXZ)
+        399  15E 00002F27 ?MovePrevious@Recordset15_Deprecated@ADODB@@QEAAJXZ = @ILT+7970(?MovePrevious@Recordset15_Deprecated@ADODB@@QEAAJXZ)
+        400  15F 00003EE5 ?MoveRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z = @ILT+12000(?MoveRecord@_Record@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z)
+        401  160 00003BD4 ?MoveRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z = @ILT+11215(?MoveRecord@_Record_Deprecated@ADODB@@QEAA?AV_bstr_t@@V3@000W4MoveRecordOptionsEnum@2@F@Z)
+        402  161 0000261C ?NextRecordset@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z = @ILT+5655(?NextRecordset@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z)
+        403  162 000030D0 ?NextRecordset@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z = @ILT+8395(?NextRecordset@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@PEAUtagVARIANT@@@Z)
+        406  163 00001FE1 ?Open@Connection15@ADODB@@QEAAJV_bstr_t@@00J@Z = @ILT+4060(?Open@Connection15@ADODB@@QEAAJV_bstr_t@@00J@Z)
+        407  164 00001181 ?Open@Connection15_Deprecated@ADODB@@QEAAJV_bstr_t@@00J@Z = @ILT+380(?Open@Connection15_Deprecated@ADODB@@QEAAJV_bstr_t@@00J@Z)
+        408  165 0000434F ?Open@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z = @ILT+13130(?Open@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z)
+        409  166 000040CA ?Open@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z = @ILT+12485(?Open@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4CursorTypeEnum@2@W4LockTypeEnum@2@J@Z)
+        410  167 00001C8F ?Open@_Record@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z = @ILT+3210(?Open@_Record@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z)
+        411  168 00003E77 ?Open@_Record_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z = @ILT+11890(?Open@_Record_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0W4ConnectModeEnum@2@W4RecordCreateOptionsEnum@2@W4RecordOpenOptionsEnum@2@V_bstr_t@@4@Z)
+        412  169 00004E85 ?Open@_Stream@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z = @ILT+16000(?Open@_Stream@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z)
+        413  16A 00003C9C ?Open@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z = @ILT+11415(?Open@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4ConnectModeEnum@2@W4StreamOpenOptionsEnum@2@V_bstr_t@@3@Z)
+        416  16B 0000186B ?OpenSchema@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z = @ILT+2150(?OpenSchema@Connection15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z)
+        417  16C 00003F99 ?OpenSchema@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z = @ILT+12180(?OpenSchema@Connection15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@W4SchemaEnum@2@AEBV_variant_t@@1@Z)
+        420  16D 0000227F ?PutAbsolutePage@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z = @ILT+4730(?PutAbsolutePage@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z)
+        421  16E 000026DF ?PutAbsolutePage@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z = @ILT+5850(?PutAbsolutePage@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z)
+        422  16F 000026E4 ?PutAbsolutePosition@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z = @ILT+5855(?PutAbsolutePosition@Recordset15@ADODB@@QEAAXW4PositionEnum@2@@Z)
+        423  170 00002E2D ?PutAbsolutePosition@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z = @ILT+7720(?PutAbsolutePosition@Recordset15_Deprecated@ADODB@@QEAAXW4PositionEnum@@@Z)
+        424  171 00003012 ?PutActiveConnection@Command15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+8205(?PutActiveConnection@Command15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        425  172 00004FB6 ?PutActiveConnection@Command15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+16305(?PutActiveConnection@Command15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        426  173 0000393B ?PutActiveConnection@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+10550(?PutActiveConnection@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        427  174 00001E29 ?PutActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+3620(?PutActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        428  175 00002E96 ?PutActiveConnection@_Record@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+7825(?PutActiveConnection@_Record@ADODB@@QEAAXV_bstr_t@@@Z)
+        429  176 000044FD ?PutActiveConnection@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+13560(?PutActiveConnection@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        430  177 00001AA0 ?PutAttributes@Connection15@ADODB@@QEAAXJ@Z = @ILT+2715(?PutAttributes@Connection15@ADODB@@QEAAXJ@Z)
+        431  178 000048EA ?PutAttributes@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+14565(?PutAttributes@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        432  179 00004B1F ?PutAttributes@Field20@ADODB@@QEAAXJ@Z = @ILT+15130(?PutAttributes@Field20@ADODB@@QEAAXJ@Z)
+        433  17A 0000334B ?PutAttributes@Field20_Deprecated@ADODB@@QEAAXJ@Z = @ILT+9030(?PutAttributes@Field20_Deprecated@ADODB@@QEAAXJ@Z)
+        434  17B 000031D9 ?PutAttributes@Property@ADODB@@QEAAXJ@Z = @ILT+8660(?PutAttributes@Property@ADODB@@QEAAXJ@Z)
+        435  17C 00002608 ?PutAttributes@_Parameter@ADODB@@QEAAXJ@Z = @ILT+5635(?PutAttributes@_Parameter@ADODB@@QEAAXJ@Z)
+        436  17D 00003332 ?PutAttributes@_Parameter_Deprecated@ADODB@@QEAAXJ@Z = @ILT+9005(?PutAttributes@_Parameter_Deprecated@ADODB@@QEAAXJ@Z)
+        437  17E 000035C6 ?PutBookmark@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+9665(?PutBookmark@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        438  17F 0000463D ?PutBookmark@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+13880(?PutBookmark@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        439  180 000041E7 ?PutCacheSize@Recordset15@ADODB@@QEAAXJ@Z = @ILT+12770(?PutCacheSize@Recordset15@ADODB@@QEAAXJ@Z)
+        440  181 000031C0 ?PutCacheSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+8635(?PutCacheSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        441  182 00004188 ?PutChapter@ADORecordsetConstruction@ADODB@@QEAAXJ@Z = @ILT+12675(?PutChapter@ADORecordsetConstruction@ADODB@@QEAAXJ@Z)
+        442  183 00004C19 ?PutCharset@_Stream@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+15380(?PutCharset@_Stream@ADODB@@QEAAXV_bstr_t@@@Z)
+        443  184 0000433B ?PutCharset@_Stream_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+13110(?PutCharset@_Stream_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        444  185 00004610 ?PutCollect@Recordset15@ADODB@@QEAAXAEBV_variant_t@@0@Z = @ILT+13835(?PutCollect@Recordset15@ADODB@@QEAAXAEBV_variant_t@@0@Z)
+        445  186 000031AC ?PutCollect@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@0@Z = @ILT+8615(?PutCollect@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@0@Z)
+        446  187 00003D87 ?PutCommandText@Command15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11650(?PutCommandText@Command15@ADODB@@QEAAXV_bstr_t@@@Z)
+        447  188 00001FAA ?PutCommandText@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+4005(?PutCommandText@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        448  189 000040B6 ?PutCommandTimeout@Command15@ADODB@@QEAAXJ@Z = @ILT+12465(?PutCommandTimeout@Command15@ADODB@@QEAAXJ@Z)
+        449  18A 00002A09 ?PutCommandTimeout@Command15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+6660(?PutCommandTimeout@Command15_Deprecated@ADODB@@QEAAXJ@Z)
+        450  18B 00003085 ?PutCommandTimeout@Connection15@ADODB@@QEAAXJ@Z = @ILT+8320(?PutCommandTimeout@Connection15@ADODB@@QEAAXJ@Z)
+        451  18C 00001A64 ?PutCommandTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+2655(?PutCommandTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        452  18D 000018CF ?PutCommandType@Command15@ADODB@@QEAAXW4CommandTypeEnum@2@@Z = @ILT+2250(?PutCommandType@Command15@ADODB@@QEAAXW4CommandTypeEnum@2@@Z)
+        453  18E 0000178F ?PutCommandType@Command15_Deprecated@ADODB@@QEAAXW4CommandTypeEnum@2@@Z = @ILT+1930(?PutCommandType@Command15_Deprecated@ADODB@@QEAAXW4CommandTypeEnum@2@@Z)
+        454  18F 00004B29 ?PutConnectionString@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+15140(?PutConnectionString@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        455  190 00003C5B ?PutConnectionString@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11350(?PutConnectionString@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        456  191 00003F0D ?PutConnectionTimeout@Connection15@ADODB@@QEAAXJ@Z = @ILT+12040(?PutConnectionTimeout@Connection15@ADODB@@QEAAXJ@Z)
+        457  192 00005169 ?PutConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+16740(?PutConnectionTimeout@Connection15_Deprecated@ADODB@@QEAAXJ@Z)
+        458  193 00004025 ?PutCursorLocation@Connection15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+12320(?PutCursorLocation@Connection15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        459  194 00003F30 ?PutCursorLocation@Connection15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+12075(?PutCursorLocation@Connection15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        460  195 0000322E ?PutCursorLocation@Recordset15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+8745(?PutCursorLocation@Recordset15@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        461  196 00002806 ?PutCursorLocation@Recordset15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z = @ILT+6145(?PutCursorLocation@Recordset15_Deprecated@ADODB@@QEAAXW4CursorLocationEnum@2@@Z)
+        462  197 000017C6 ?PutCursorType@Recordset15@ADODB@@QEAAXW4CursorTypeEnum@2@@Z = @ILT+1985(?PutCursorType@Recordset15@ADODB@@QEAAXW4CursorTypeEnum@2@@Z)
+        463  198 00004D36 ?PutCursorType@Recordset15_Deprecated@ADODB@@QEAAXW4CursorTypeEnum@2@@Z = @ILT+15665(?PutCursorType@Recordset15_Deprecated@ADODB@@QEAAXW4CursorTypeEnum@2@@Z)
+        464  199 00004DD6 ?PutDataMember@Recordset20@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+15825(?PutDataMember@Recordset20@ADODB@@QEAAXV_bstr_t@@@Z)
+        465  19A 00003A53 ?PutDataMember@Recordset20_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10830(?PutDataMember@Recordset20_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        466  19B 00001591 ?PutDefaultDatabase@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1420(?PutDefaultDatabase@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        467  19C 00004011 ?PutDefaultDatabase@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12300(?PutDefaultDatabase@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        468  19D 00004A75 ?PutDefinedSize@Field20@ADODB@@QEAAXJ@Z = @ILT+14960(?PutDefinedSize@Field20@ADODB@@QEAAXJ@Z)
+        469  19E 000014BA ?PutDefinedSize@Field20_Deprecated@ADODB@@QEAAXJ@Z = @ILT+1205(?PutDefinedSize@Field20_Deprecated@ADODB@@QEAAXJ@Z)
+        470  19F 00003F35 ?PutDialect@_Command@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12080(?PutDialect@_Command@ADODB@@QEAAXV_bstr_t@@@Z)
+        471  1A0 000049F8 ?PutDialect@_Command_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+14835(?PutDialect@_Command_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        472  1A1 00004D72 ?PutDirection@_Parameter@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z = @ILT+15725(?PutDirection@_Parameter@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z)
+        473  1A2 00002CCF ?PutDirection@_Parameter_Deprecated@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z = @ILT+7370(?PutDirection@_Parameter_Deprecated@ADODB@@QEAAXW4ParameterDirectionEnum@2@@Z)
+        474  1A3 00001032 ?PutFilter@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+45(?PutFilter@Recordset15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        475  1A4 00003247 ?PutFilter@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+8770(?PutFilter@Recordset15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        476  1A5 00001555 ?PutIndex@Recordset21@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1360(?PutIndex@Recordset21@ADODB@@QEAAXV_bstr_t@@@Z)
+        477  1A6 0000455C ?PutIndex@Recordset21_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+13655(?PutIndex@Recordset21_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        478  1A7 00003724 ?PutIsolationLevel@Connection15@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z = @ILT+10015(?PutIsolationLevel@Connection15@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z)
+        479  1A8 00004D4F ?PutIsolationLevel@Connection15_Deprecated@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z = @ILT+15690(?PutIsolationLevel@Connection15_Deprecated@ADODB@@QEAAXW4IsolationLevelEnum@2@@Z)
+        480  1A9 00005006 ?PutLineSeparator@_Stream@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z = @ILT+16385(?PutLineSeparator@_Stream@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z)
+        481  1AA 00004B15 ?PutLineSeparator@_Stream_Deprecated@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z = @ILT+15120(?PutLineSeparator@_Stream_Deprecated@ADODB@@QEAAXW4LineSeparatorEnum@2@@Z)
+        482  1AB 00001D89 ?PutLockType@Recordset15@ADODB@@QEAAXW4LockTypeEnum@2@@Z = @ILT+3460(?PutLockType@Recordset15@ADODB@@QEAAXW4LockTypeEnum@2@@Z)
+        483  1AC 0000404D ?PutLockType@Recordset15_Deprecated@ADODB@@QEAAXW4LockTypeEnum@2@@Z = @ILT+12360(?PutLockType@Recordset15_Deprecated@ADODB@@QEAAXW4LockTypeEnum@2@@Z)
+        484  1AD 0000229D ?PutMarshalOptions@Recordset15@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z = @ILT+4760(?PutMarshalOptions@Recordset15@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z)
+        485  1AE 00003959 ?PutMarshalOptions@Recordset15_Deprecated@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z = @ILT+10580(?PutMarshalOptions@Recordset15_Deprecated@ADODB@@QEAAXW4MarshalOptionsEnum@2@@Z)
+        486  1AF 00004656 ?PutMaxRecords@Recordset15@ADODB@@QEAAXJ@Z = @ILT+13905(?PutMaxRecords@Recordset15@ADODB@@QEAAXJ@Z)
+        487  1B0 000041A1 ?PutMaxRecords@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+12700(?PutMaxRecords@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        488  1B1 00003229 ?PutMode@Connection15@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+8740(?PutMode@Connection15@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        489  1B2 0000464C ?PutMode@Connection15_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+13895(?PutMode@Connection15_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        490  1B3 000039DB ?PutMode@_Record@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+10710(?PutMode@_Record@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        491  1B4 00001B31 ?PutMode@_Record_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+2860(?PutMode@_Record_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        492  1B5 000046F6 ?PutMode@_Stream@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+14065(?PutMode@_Stream@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        493  1B6 0000237E ?PutMode@_Stream_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z = @ILT+4985(?PutMode@_Stream_Deprecated@ADODB@@QEAAXW4ConnectModeEnum@2@@Z)
+        494  1B7 0000405C ?PutName@Command15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12375(?PutName@Command15@ADODB@@QEAAXV_bstr_t@@@Z)
+        495  1B8 00003C42 ?PutName@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+11325(?PutName@Command15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        496  1B9 000018E8 ?PutName@_Parameter@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+2275(?PutName@_Parameter@ADODB@@QEAAXV_bstr_t@@@Z)
+        497  1BA 00002B71 ?PutName@_Parameter_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+7020(?PutName@_Parameter_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        498  1BB 00003896 ?PutNamedParameters@_Command@ADODB@@QEAAXF@Z = @ILT+10385(?PutNamedParameters@_Command@ADODB@@QEAAXF@Z)
+        499  1BC 0000189D ?PutNamedParameters@_Command_Deprecated@ADODB@@QEAAXF@Z = @ILT+2200(?PutNamedParameters@_Command_Deprecated@ADODB@@QEAAXF@Z)
+        500  1BD 000025FE ?PutNumericScale@Field20@ADODB@@QEAAXE@Z = @ILT+5625(?PutNumericScale@Field20@ADODB@@QEAAXE@Z)
+        501  1BE 0000470A ?PutNumericScale@Field20_Deprecated@ADODB@@QEAAXE@Z = @ILT+14085(?PutNumericScale@Field20_Deprecated@ADODB@@QEAAXE@Z)
+        502  1BF 000043F4 ?PutNumericScale@_Parameter@ADODB@@QEAAXE@Z = @ILT+13295(?PutNumericScale@_Parameter@ADODB@@QEAAXE@Z)
+        503  1C0 00003AE9 ?PutNumericScale@_Parameter_Deprecated@ADODB@@QEAAXE@Z = @ILT+10980(?PutNumericScale@_Parameter_Deprecated@ADODB@@QEAAXE@Z)
+        504  1C1 00002784 ?PutOLEDBCommand@ADOCommandConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+6015(?PutOLEDBCommand@ADOCommandConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        505  1C2 00001078 ?PutPageSize@Recordset15@ADODB@@QEAAXJ@Z = @ILT+115(?PutPageSize@Recordset15@ADODB@@QEAAXJ@Z)
+        506  1C3 00005123 ?PutPageSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z = @ILT+16670(?PutPageSize@Recordset15_Deprecated@ADODB@@QEAAXJ@Z)
+        507  1C4 0000353A ?PutParentRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+9525(?PutParentRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        508  1C5 00002E14 ?PutPosition@_Stream@ADODB@@QEAAXJ@Z = @ILT+7695(?PutPosition@_Stream@ADODB@@QEAAXJ@Z)
+        509  1C6 00003D9B ?PutPosition@_Stream_Deprecated@ADODB@@QEAAXJ@Z = @ILT+11670(?PutPosition@_Stream_Deprecated@ADODB@@QEAAXJ@Z)
+        510  1C7 000046A6 ?PutPrecision@Field20@ADODB@@QEAAXE@Z = @ILT+13985(?PutPrecision@Field20@ADODB@@QEAAXE@Z)
+        511  1C8 00001370 ?PutPrecision@Field20_Deprecated@ADODB@@QEAAXE@Z = @ILT+875(?PutPrecision@Field20_Deprecated@ADODB@@QEAAXE@Z)
+        512  1C9 00001D70 ?PutPrecision@_Parameter@ADODB@@QEAAXE@Z = @ILT+3435(?PutPrecision@_Parameter@ADODB@@QEAAXE@Z)
+        513  1CA 000048A4 ?PutPrecision@_Parameter_Deprecated@ADODB@@QEAAXE@Z = @ILT+14495(?PutPrecision@_Parameter_Deprecated@ADODB@@QEAAXE@Z)
+        514  1CB 00003DC8 ?PutPrepared@Command15@ADODB@@QEAAXF@Z = @ILT+11715(?PutPrepared@Command15@ADODB@@QEAAXF@Z)
+        515  1CC 00004BE7 ?PutPrepared@Command15_Deprecated@ADODB@@QEAAXF@Z = @ILT+15330(?PutPrepared@Command15_Deprecated@ADODB@@QEAAXF@Z)
+        516  1CD 00001CA3 ?PutProvider@Connection15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+3230(?PutProvider@Connection15@ADODB@@QEAAXV_bstr_t@@@Z)
+        517  1CE 0000420A ?PutProvider@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+12805(?PutProvider@Connection15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        518  1CF 0000410B ?PutRefActiveConnection@Command15@ADODB@@QEAAXPEAU_Connection@2@@Z = @ILT+12550(?PutRefActiveConnection@Command15@ADODB@@QEAAXPEAU_Connection@2@@Z)
+        519  1D0 000025F4 ?PutRefActiveConnection@Command15_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z = @ILT+5615(?PutRefActiveConnection@Command15_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z)
+        520  1D1 00001E92 ?PutRefActiveConnection@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+3725(?PutRefActiveConnection@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        521  1D2 00001DED ?PutRefActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+3560(?PutRefActiveConnection@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        522  1D3 00004D90 ?PutRefActiveConnection@_Record@ADODB@@QEAAXPEAU_Connection@2@@Z = @ILT+15755(?PutRefActiveConnection@_Record@ADODB@@QEAAXPEAU_Connection@2@@Z)
+        523  1D4 000026AD ?PutRefActiveConnection@_Record_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z = @ILT+5800(?PutRefActiveConnection@_Record_Deprecated@ADODB@@QEAAXPEAU_Connection_Deprecated@2@@Z)
+        524  1D5 0000218A ?PutRefCommandStream@_Command@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+4485(?PutRefCommandStream@_Command@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        525  1D6 000051C8 ?PutRefCommandStream@_Command_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+16835(?PutRefCommandStream@_Command_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        526  1D7 000051A5 ?PutRefDataFormat@Field20@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+16800(?PutRefDataFormat@Field20@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        527  1D8 00002A63 ?PutRefDataFormat@Field20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+6750(?PutRefDataFormat@Field20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        528  1D9 00004296 ?PutRefDataSource@Recordset20@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+12945(?PutRefDataSource@Recordset20@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        529  1DA 00003058 ?PutRefDataSource@Recordset20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+8275(?PutRefDataSource@Recordset20_Deprecated@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        530  1DB 0000182A ?PutRefSource@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+2085(?PutRefSource@Recordset15@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        531  1DC 00004EDF ?PutRefSource@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+16090(?PutRefSource@Recordset15_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        532  1DD 00001BDB ?PutRefSource@_Record@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+3030(?PutRefSource@_Record@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        533  1DE 000020CC ?PutRefSource@_Record_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z = @ILT+4295(?PutRefSource@_Record_Deprecated@ADODB@@QEAAXPEAUIDispatch@@@Z)
+        534  1DF 000014DD ?PutRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+1240(?PutRow@ADORecordConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        535  1E0 00005182 ?PutRowPosition@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+16765(?PutRowPosition@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        536  1E1 00004B79 ?PutRowset@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+15220(?PutRowset@ADORecordsetConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        537  1E2 00002789 ?PutSize@_Parameter@ADODB@@QEAAXJ@Z = @ILT+6020(?PutSize@_Parameter@ADODB@@QEAAXJ@Z)
+        538  1E3 00003CB0 ?PutSize@_Parameter_Deprecated@ADODB@@QEAAXJ@Z = @ILT+11435(?PutSize@_Parameter_Deprecated@ADODB@@QEAAXJ@Z)
+        539  1E4 000022B1 ?PutSort@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+4780(?PutSort@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z)
+        540  1E5 00004444 ?PutSort@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+13375(?PutSort@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        541  1E6 0000381E ?PutSource@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10265(?PutSource@Recordset15@ADODB@@QEAAXV_bstr_t@@@Z)
+        542  1E7 000016DB ?PutSource@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+1750(?PutSource@Recordset15_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        543  1E8 00002527 ?PutSource@_Record@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+5410(?PutSource@_Record@ADODB@@QEAAXV_bstr_t@@@Z)
+        544  1E9 00003A1C ?PutSource@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z = @ILT+10775(?PutSource@_Record_Deprecated@ADODB@@QEAAXV_bstr_t@@@Z)
+        545  1EA 0000269E ?PutStayInSync@Recordset20@ADODB@@QEAAXF@Z = @ILT+5785(?PutStayInSync@Recordset20@ADODB@@QEAAXF@Z)
+        546  1EB 00002374 ?PutStayInSync@Recordset20_Deprecated@ADODB@@QEAAXF@Z = @ILT+4975(?PutStayInSync@Recordset20_Deprecated@ADODB@@QEAAXF@Z)
+        547  1EC 00001D48 ?PutStream@ADOStreamConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z = @ILT+3395(?PutStream@ADOStreamConstruction@ADODB@@QEAAXPEAUIUnknown@@@Z)
+        548  1ED 000038AF ?PutType@Field20@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+10410(?PutType@Field20@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        549  1EE 0000136B ?PutType@Field20_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+870(?PutType@Field20_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        550  1EF 000051E6 ?PutType@_Parameter@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+16865(?PutType@_Parameter@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        551  1F0 00004BC4 ?PutType@_Parameter_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z = @ILT+15295(?PutType@_Parameter_Deprecated@ADODB@@QEAAXW4DataTypeEnum@2@@Z)
+        552  1F1 000027CF ?PutType@_Stream@ADODB@@QEAAXW4StreamTypeEnum@2@@Z = @ILT+6090(?PutType@_Stream@ADODB@@QEAAXW4StreamTypeEnum@2@@Z)
+        553  1F2 00002EF5 ?PutType@_Stream_Deprecated@ADODB@@QEAAXW4StreamTypeEnum@2@@Z = @ILT+7920(?PutType@_Stream_Deprecated@ADODB@@QEAAXW4StreamTypeEnum@2@@Z)
+        554  1F3 000017E4 ?PutValue@Field15@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+2015(?PutValue@Field15@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        555  1F4 00001C3A ?PutValue@Field15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+3125(?PutValue@Field15_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        556  1F5 00003819 ?PutValue@Field20@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+10260(?PutValue@Field20@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        557  1F6 00002626 ?PutValue@Field20_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+5665(?PutValue@Field20_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        558  1F7 00003143 ?PutValue@Property@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+8510(?PutValue@Property@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        559  1F8 00003D23 ?PutValue@_Parameter@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+11550(?PutValue@_Parameter@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        560  1F9 0000492B ?PutValue@_Parameter_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z = @ILT+14630(?PutValue@_Parameter_Deprecated@ADODB@@QEAAXAEBV_variant_t@@@Z)
+        561  1FA 0000291E ?Read@_Stream@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+6425(?Read@_Stream@ADODB@@QEAA?AV_variant_t@@J@Z)
+        562  1FB 00001FC8 ?Read@_Stream_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z = @ILT+4035(?Read@_Stream_Deprecated@ADODB@@QEAA?AV_variant_t@@J@Z)
+        563  1FC 0000454D ?ReadText@_Stream@ADODB@@QEAA?AV_bstr_t@@J@Z = @ILT+13640(?ReadText@_Stream@ADODB@@QEAA?AV_bstr_t@@J@Z)
+        564  1FD 00002040 ?ReadText@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@J@Z = @ILT+4155(?ReadText@_Stream_Deprecated@ADODB@@QEAA?AV_bstr_t@@J@Z)
+        565  1FE 00003E1D ?RecordChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+11800(?RecordChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        566  1FF 00001DFC ?RecordChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+3575(?RecordChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        567  200 000040D4 ?RecordChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+12495(?RecordChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        568  201 00001F7D ?RecordChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+3960(?RecordChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        569  202 00002D15 ?RecordsetChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+7440(?RecordsetChangeComplete@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        570  203 000011EF ?RecordsetChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+490(?RecordsetChangeComplete@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        571  204 00003EAE ?RecordsetChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+11945(?RecordsetChangeComplete@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        572  205 00003378 ?RecordsetChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+9075(?RecordsetChangeComplete@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAUError@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        574  206 000046AB ?Refresh@_Collection@ADODB@@QEAAJXZ = @ILT+13990(?Refresh@_Collection@ADODB@@QEAAJXZ)
+        576  207 00004D22 ?Requery@Recordset15@ADODB@@QEAAJJ@Z = @ILT+15645(?Requery@Recordset15@ADODB@@QEAAJJ@Z)
+        577  208 00001519 ?Requery@Recordset15_Deprecated@ADODB@@QEAAJJ@Z = @ILT+1300(?Requery@Recordset15_Deprecated@ADODB@@QEAAJJ@Z)
+        578  209 00002C48 ?Resync@Fields@ADODB@@QEAAJW4ResyncEnum@2@@Z = @ILT+7235(?Resync@Fields@ADODB@@QEAAJW4ResyncEnum@2@@Z)
+        579  20A 00004813 ?Resync@Fields_Deprecated@ADODB@@QEAAJW4ResyncEnum@2@@Z = @ILT+14350(?Resync@Fields_Deprecated@ADODB@@QEAAJW4ResyncEnum@2@@Z)
+        580  20B 000027B1 ?Resync@Recordset20@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z = @ILT+6060(?Resync@Recordset20@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z)
+        581  20C 000011E0 ?Resync@Recordset20_Deprecated@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z = @ILT+475(?Resync@Recordset20_Deprecated@ADODB@@QEAAJW4AffectEnum@2@W4ResyncEnum@2@@Z)
+        582  20D 00004DC2 ?RollbackTrans@Connection15@ADODB@@QEAAJXZ = @ILT+15805(?RollbackTrans@Connection15@ADODB@@QEAAJXZ)
+        583  20E 000037BF ?RollbackTrans@Connection15_Deprecated@ADODB@@QEAAJXZ = @ILT+10170(?RollbackTrans@Connection15_Deprecated@ADODB@@QEAAJXZ)
+        584  20F 00005173 ?RollbackTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16750(?RollbackTransComplete@ConnectionEvents@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        585  210 00002D88 ?RollbackTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+7555(?RollbackTransComplete@ConnectionEventsVt@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        586  211 000014D8 ?RollbackTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+1235(?RollbackTransComplete@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        587  212 000032C4 ?RollbackTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+8895(?RollbackTransComplete@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAUError@2@PEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        588  213 00002FEA ?Save@_Recordset@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z = @ILT+8165(?Save@_Recordset@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z)
+        589  214 000049D5 ?Save@_Recordset_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z = @ILT+14800(?Save@_Recordset_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4PersistFormatEnum@2@@Z)
+        590  215 00003C60 ?SaveToFile@_Stream@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z = @ILT+11355(?SaveToFile@_Stream@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z)
+        591  216 00003788 ?SaveToFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z = @ILT+10115(?SaveToFile@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4SaveOptionsEnum@2@@Z)
+        592  217 00003AF3 ?Seek@Recordset21@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z = @ILT+10990(?Seek@Recordset21@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z)
+        593  218 00001F9B ?Seek@Recordset21_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z = @ILT+3990(?Seek@Recordset21_Deprecated@ADODB@@QEAAJAEBV_variant_t@@W4SeekEnum@2@@Z)
+        595  219 0000138E ?SetEOS@_Stream@ADODB@@QEAAJXZ = @ILT+905(?SetEOS@_Stream@ADODB@@QEAAJXZ)
+        596  21A 00004D4A ?SetEOS@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+15685(?SetEOS@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        599  21B 000035CB ?SkipLine@_Stream@ADODB@@QEAAJXZ = @ILT+9670(?SkipLine@_Stream@ADODB@@QEAAJXZ)
+        600  21C 00003EB8 ?SkipLine@_Stream_Deprecated@ADODB@@QEAAJXZ = @ILT+11955(?SkipLine@_Stream_Deprecated@ADODB@@QEAAJXZ)
+        601  21D 00001C6C ?Supports@Recordset15@ADODB@@QEAAFW4CursorOptionEnum@2@@Z = @ILT+3175(?Supports@Recordset15@ADODB@@QEAAFW4CursorOptionEnum@2@@Z)
+        602  21E 000044C1 ?Supports@Recordset15_Deprecated@ADODB@@QEAAFW4CursorOptionEnum@2@@Z = @ILT+13500(?Supports@Recordset15_Deprecated@ADODB@@QEAAFW4CursorOptionEnum@2@@Z)
+        608  21F 00003661 ?Update@Fields@ADODB@@QEAAJXZ = @ILT+9820(?Update@Fields@ADODB@@QEAAJXZ)
+        609  220 0000150A ?Update@Fields_Deprecated@ADODB@@QEAAJXZ = @ILT+1285(?Update@Fields_Deprecated@ADODB@@QEAAJXZ)
+        610  221 00003201 ?Update@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+8700(?Update@Recordset15@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+        611  222 0000350D ?Update@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z = @ILT+9480(?Update@Recordset15_Deprecated@ADODB@@QEAAJAEBV_variant_t@@0@Z)
+        612  223 000026B2 ?UpdateBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+5805(?UpdateBatch@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        613  224 0000517D ?UpdateBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+16760(?UpdateBatch@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        615  225 00003A2B ?WillChangeField@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+10790(?WillChangeField@RecordsetEvents@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        616  226 00002ACC ?WillChangeField@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+6855(?WillChangeField@RecordsetEventsVt@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        617  227 000013CA ?WillChangeField@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+965(?WillChangeField@RecordsetEventsVt_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        618  228 00002009 ?WillChangeField@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+4100(?WillChangeField@RecordsetEvents_Deprecated@ADODB@@QEAAJJAEBV_variant_t@@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        619  229 0000225C ?WillChangeRecord@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4695(?WillChangeRecord@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        620  22A 000029E1 ?WillChangeRecord@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+6620(?WillChangeRecord@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        621  22B 0000515A ?WillChangeRecord@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+16725(?WillChangeRecord@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        622  22C 00004C55 ?WillChangeRecord@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+15440(?WillChangeRecord@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@JPEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        623  22D 000022A2 ?WillChangeRecordset@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4765(?WillChangeRecordset@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        624  22E 00002676 ?WillChangeRecordset@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+5745(?WillChangeRecordset@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        625  22F 00002388 ?WillChangeRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+4995(?WillChangeRecordset@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        626  230 000011D1 ?WillChangeRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+460(?WillChangeRecordset@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        627  231 000050B0 ?WillConnect@ConnectionEvents@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16555(?WillConnect@ConnectionEvents@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        628  232 000051CD ?WillConnect@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z = @ILT+16840(?WillConnect@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection@2@@Z)
+        629  233 00005150 ?WillConnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+16715(?WillConnect@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        630  234 00004886 ?WillConnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z = @ILT+14465(?WillConnect@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_W00PEAJPEAW4EventStatusEnum@2@PEAU_Connection_Deprecated@2@@Z)
+        631  235 00005024 ?WillExecute@ConnectionEvents@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+16415(?WillExecute@ConnectionEvents@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        632  236 00003A62 ?WillExecute@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z = @ILT+10845(?WillExecute@ConnectionEventsVt@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command@2@PEAU_Recordset@2@PEAU_Connection@2@@Z)
+        633  237 00001D11 ?WillExecute@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+3340(?WillExecute@ConnectionEventsVt_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        634  238 000039B8 ?WillExecute@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z = @ILT+10675(?WillExecute@ConnectionEvents_Deprecated@ADODB@@QEAAJPEAPEA_WPEAW4CursorTypeEnum@2@PEAW4LockTypeEnum@2@PEAJPEAW4EventStatusEnum@2@PEAU_Command_Deprecated@2@PEAU_Recordset_Deprecated@2@PEAU_Connection_Deprecated@2@@Z)
+        635  239 000046B0 ?WillMove@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+13995(?WillMove@RecordsetEvents@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        636  23A 00001FD2 ?WillMove@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z = @ILT+4045(?WillMove@RecordsetEventsVt@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset@2@@Z)
+        637  23B 00002C25 ?WillMove@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+7200(?WillMove@RecordsetEventsVt_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        638  23C 00001208 ?WillMove@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z = @ILT+515(?WillMove@RecordsetEvents_Deprecated@ADODB@@QEAAJW4EventReasonEnum@2@PEAW4EventStatusEnum@2@PEAU_Recordset_Deprecated@2@@Z)
+        639  23D 00001E6F ?WrapDSOandSession@ADOConnectionConstruction15@ADODB@@QEAAJPEAUIUnknown@@0@Z = @ILT+3690(?WrapDSOandSession@ADOConnectionConstruction15@ADODB@@QEAAJPEAUIUnknown@@0@Z)
+        640  23E 00001316 ?Write@_Stream@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+785(?Write@_Stream@ADODB@@QEAAJAEBV_variant_t@@@Z)
+        641  23F 00003355 ?Write@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z = @ILT+9040(?Write@_Stream_Deprecated@ADODB@@QEAAJAEBV_variant_t@@@Z)
+        642  240 00003BE8 ?WriteText@_Stream@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z = @ILT+11235(?WriteText@_Stream@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z)
+        643  241 00001A82 ?WriteText@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z = @ILT+2685(?WriteText@_Stream_Deprecated@ADODB@@QEAAJV_bstr_t@@W4StreamWriteEnum@2@@Z)
+        644  242 00003F67 ?_Append@Fields20@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z = @ILT+12130(?_Append@Fields20@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z)
+        645  243 00001686 ?_Append@Fields20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z = @ILT+1665(?_Append@Fields20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4DataTypeEnum@2@JW4FieldAttributeEnum@2@@Z)
+        646  244 00002BDA ?_NewEnum@_Collection@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ = @ILT+7125(?_NewEnum@_Collection@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@UIUnknown@@$1?_GUID_00000000_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@XZ)
+        647  245 000041B0 ?_xClone@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+12715(?_xClone@Recordset15@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@ADODB@@$1?_GUID_00001556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        648  246 000024E1 ?_xClone@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ = @ILT+5340(?_xClone@Recordset15_Deprecated@ADODB@@QEAA?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset_Deprecated@ADODB@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ)
+        649  247 00003F76 ?_xResync@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+12145(?_xResync@Recordset15@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        650  248 00001C99 ?_xResync@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z = @ILT+3220(?_xResync@Recordset15_Deprecated@ADODB@@QEAAJW4AffectEnum@2@@Z)
+        651  249 00002E91 ?_xSave@Recordset20@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z = @ILT+7820(?_xSave@Recordset20@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z)
+        652  24A 00002950 ?_xSave@Recordset20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z = @ILT+6475(?_xSave@Recordset20_Deprecated@ADODB@@QEAAJV_bstr_t@@W4PersistFormatEnum@2@@Z)
+          4  24B 00002D1F AddIconIMG_List = @ILT+7450(?AddIconIMG_List@@YAXAEAPEAU_IMAGELIST@@PEBD@Z)
+          7  24C 0000335A AfficherUnClient = @ILT+9045(?AfficherUnClient@OperationSQL@@QEAA_NH@Z)
+          8  24D 00001064 AjouterClient = @ILT+95(?AjouterClient@OperationSQL@@QEAAHPEAD@Z)
+         40  24E 00004B51 CheckDigit = @ILT+15180(?CheckDigit@@YAHPEBDH@Z)
+         41  24F 000050E7 ChoisirBase = @ILT+16610(?ChoisirBase@@YAPEAUHKEY__@@PEAD@Z)
+         42  250 00004CE6 ChoisirType = @ILT+15585(?ChoisirType@@YAKPEAD@Z)
+         66  251 00003B07 Connexion = @ILT+11010(?Connexion@OperationSQL@@QEAA_NXZ)
+         71  252 0000451B CreateBMPFile = @ILT+13590(?CreateBMPFile@@YAXPEAUHWND__@@PEADPEAUtagBITMAPINFO@@PEAUHBITMAP__@@PEAUHDC__@@@Z)
+         72  253 0000388C CreateBitmapInfoStruct = @ILT+10375(?CreateBitmapInfoStruct@@YAPEAUtagBITMAPINFO@@PEAUHWND__@@PEAUHBITMAP__@@@Z)
+         75  254 00001663 CreerCle = @ILT+1630(?CreerCle@@YA_NPEAD0PEAPEAUHKEY__@@@Z)
+         76  255 000050F6 CreerInterfaceClients = @ILT+16625(?CreerInterfaceClients@@YAXXZ)
+         77  256 000039F9 CreerInterfaceComptabilitÇ¸ = @ILT+10740(?CreerInterfaceComptabilit‚@@YAXXZ)
+         78  257 00002C2F CreerInterfaceContacts = @ILT+7210(?CreerInterfaceContacts@@YAXXZ)
+         79  258 0000452F CreerInterfaceEmployÇ¸s = @ILT+13610(?CreerInterfaceEmploy‚s@@YAXXZ)
+         80  259 000046E2 CreerInterfaceFournisseurs = @ILT+14045(?CreerInterfaceFournisseurs@@YAXXZ)
+         81  25A 00001B7C CreerInterfaceInventaire = @ILT+2935(?CreerInterfaceInventaire@@YAXXZ)
+         82  25B 00004165 CreerInterfaceProjets = @ILT+12640(?CreerInterfaceProjets@@YAXXZ)
+         83  25C 00001929 CreerInterfacePropos = @ILT+2340(?CreerInterfacePropos@@YAXXZ)
+         84  25D 0000419C CreerInterfacePunch = @ILT+12695(?CreerInterfacePunch@@YAXXZ)
+         85  25E 00002252 CreerTables = @ILT+4685(?CreerTables@OperationSQL@@QEAAXXZ)
+         86  25F 0000432C Decode = @ILT+13095(?Decode@@YAHPEBD@Z)
+         98  260 0000481D DoContextMenu = @ILT+14360(?DoContextMenu@@YA_N_K_J@Z)
+         99  261 00003756 Draw = @ILT+10065(?Draw@@YAXPEAUHDC__@@UtagPOINT@@HH@Z)
+        100  262 00005065 EcrireValeur = @ILT+16480(?EcrireValeur@@YA_NPEAUHKEY__@@PEAD11@Z)
+        101  263 0000295A EnableGrayMenu = @ILT+6485(?EnableGrayMenu@@YAXPEAUHMENU__@@H@Z)
+        106  264 00001672 ErrorString = @ILT+1645(?ErrorString@@YAPEBDH@Z)
+        115  265 00004A66 FermerCle = @ILT+14945(?FermerCle@@YA_NPEAUHKEY__@@@Z)
+        147  266 00002EB9 GetAppLastError = @ILT+7860(?GetAppLastError@@YAHXZ)
+        148  267 00004ABB GetApproximateStep = @ILT+15030(?GetApproximateStep@@YAHH@Z)
+        149  268 00003C38 GetApproximateWidth = @ILT+11315(?GetApproximateWidth@@YAHH@Z)
+        174  269 00004F02 GetCodeString = @ILT+16125(?GetCodeString@@YAPEBDXZ)
+        249  26A 0000300D GetMinimalHeight = @ILT+8200(?GetMinimalHeight@@YAHPEAUHDC__@@H@Z)
+        341  26B 00003792 GetTextItemTree = @ILT+10125(?GetTextItemTree@@YAPEADPEAU_TREEITEM@@@Z)
+        369  26C 00004F6B InitControlRubanOutils = @ILT+16230(?InitControlRubanOutils@@YAXH@Z)
+        370  26D 00004368 InitControlTabulation = @ILT+13155(?InitControlTabulation@@YAXXZ)
+        371  26E 00001E33 InitListViewImageLists = @ILT+3630(?InitListViewImageLists@@YAXXZ)
+        372  26F 0000461A InitTreeViewImageLists = @ILT+13845(?InitTreeViewImageLists@@YAXXZ)
+        373  270 00004250 InitTreeViewItems = @ILT+12875(?InitTreeViewItems@@YAXXZ)
+        374  271 000019D8 InscrireRegistre = @ILT+2515(?InscrireRegistre@@YAXXZ)
+        375  272 00003EDB LireValeur = @ILT+11990(?LireValeur@@YAPEADPEAUHKEY__@@PEADPEAH@Z)
+        376  273 0000128A ListViewCas = @ILT+645(?ListViewCas@@YAHXZ)
+        377  274 000043F9 ListerDisk = @ILT+13300(?ListerDisk@@YAXPEAU_TREEITEM@@@Z)
+        378  275 000042D7 ListerInstance = @ILT+13010(?ListerInstance@OperationSQL@@QEAAPEA_WXZ)
+        379  276 000022FC ListerInstancesPhysique = @ILT+4855(?ListerInstancesPhysique@OperationSQL@@QEAAPEA_WXZ)
+        380  277 00001262 ListerInstancesSQL = @ILT+605(?ListerInstancesSQL@OperationSQL@@QEAAPEAEXZ)
+        381  278 0000376F ListerRepFile = @ILT+10090(?ListerRepFile@@YAXPEADPEAU_TREEITEM@@@Z)
+        382  279 00004115 ListerTousLesClients = @ILT+12560(?ListerTousLesClients@OperationSQL@@QEAAXXZ)
+        385  27A 00001D4D MettreAjourClient = @ILT+3400(?MettreAjourClient@OperationSQL@@QEAAHHPEAD@Z)
+        404  27B 0000188E OnRegError = @ILT+2185(?OnRegError@@YAXH@Z)
+        405  27C 00003E95 OnSelTree = @ILT+11920(?OnSelTree@@YAXXZ)
+        414  27D 00003BFC OpenExplorePrint = @ILT+11255(?OpenExplorePrint@@YAXPEAD@Z)
+        415  27E 00004D13 OpenFolder = @ILT+15630(?OpenFolder@@YAXPEAD@Z)
+        418  27F 00001843 OuvrirCle = @ILT+2110(?OuvrirCle@@YA_NPEAD0PEAPEAUHKEY__@@@Z)
+        419  280 000038B4 PreparePrint = @ILT+10415(?PreparePrint@@YAHPEAUHDC__@@U_POINTFLOAT@@PEAUtagRECT@@@Z)
+        573  281 00001B90 RecupInfo = @ILT+2955(?RecupInfo@@YAXXZ)
+        575  282 00001BC2 Rename = @ILT+3005(?Rename@@YA_NPEAUtagLVDISPINFO@@@Z)
+        594  283 00003CC4 SetBits = @ILT+11455(?SetBits@@YAXPEAPEADPEAHGH@Z)
+        597  284 00003279 SetIndex = @ILT+8820(?SetIndex@@YAHD@Z)
+        598  285 00001AAF SetResultCode = @ILT+2730(?SetResultCode@@YAXPEAUHWND__@@@Z)
+        603  286 0000346D SupprimerCle = @ILT+9320(?SupprimerCle@@YA_NPEAD0@Z)
+        604  287 000015F5 SupprimerTables = @ILT+1520(?SupprimerTables@OperationSQL@@QEAAXXZ)
+        605  288 00002725 SupprimerValeur = @ILT+5920(?SupprimerValeur@@YA_NPEAD00@Z)
+        606  289 0000141A SupprimmerClient = @ILT+1045(?SupprimmerClient@OperationSQL@@QEAAXH@Z)
+        607  28A 000036D4 SwitchView = @ILT+9935(?SwitchView@@YAXPEAUHWND__@@K@Z)
+        614  28B 000034C7 UpdateMenu = @ILT+9410(?UpdateMenu@@YAXPEAUHWND__@@PEAUHMENU__@@@Z)
+        653  28C 00003B75 errhandler = @ILT+11120(?errhandler@@YAXPEBDPEAUHWND__@@@Z)
+
+  Image has the following dependencies:
+
+    KERNEL32.dll
+    USER32.dll
+    GDI32.dll
+    ADVAPI32.dll
+    SHELL32.dll
+    ole32.dll
+    OLEAUT32.dll
+    ODBC32.dll
+    COMCTL32.dll
+
+  Summary
+
+        1000 .00cfg
+        5000 .data
+        1000 .fptable
+        3000 .idata
+        8000 .pdata
+       31000 .rdata
+        7000 .rsrc
+       AB000 .text
+        1000 .tls

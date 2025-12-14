@@ -151,6 +151,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ADODB.cpp" />
+    <ClCompile Include="CDbManager.cpp" />
     <ClCompile Include="CodeBarre.cpp" />
     <ClCompile Include="Communs.cpp" />
     <ClCompile Include="Explorateur.cpp" />
@@ -169,43 +170,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ADODB.h" />
+    <ClInclude Include="CDbManager.h" />
     <ClInclude Include="Noyau.h" />
     <ClInclude Include="OperationSQL.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="00000000.ICO" />
-    <Image Include="00000002.ICO" />
-    <Image Include="00000007 (2).ICO" />
-    <Image Include="00000007.ICO" />
-    <Image Include="00000011.ICO" />
-    <Image Include="00000016.ICO" />
-    <Image Include="00000017.ICO" />
-    <Image Include="00000022.ICO" />
-    <Image Include="00000024.ICO" />
-    <Image Include="00000026.ICO" />
-    <Image Include="00000027.ICO" />
-    <Image Include="00000034 (2).ICO" />
-    <Image Include="00000034.ICO" />
-    <Image Include="00000040.ICO" />
-    <Image Include="00000065.ICO" />
-    <Image Include="00000079.ICO" />
-    <Image Include="00000098.ICO" />
-    <Image Include="00000147.ICO" />
-    <Image Include="00000E2E20200310033832.ico" />
-    <Image Include="00001AAA20200310044125.ico" />
     <Image Include="002.ico" />
-    <Image Include="003.ico" />
-    <Image Include="15.ico" />
-    <Image Include="3.ico" />
-    <Image Include="33.ico" />
-    <Image Include="35floppy.ico" />
-    <Image Include="4 (2).ico" />
-    <Image Include="4.ico" />
-    <Image Include="5.ico" />
-    <Image Include="52.ico" />
-    <Image Include="79D2BF7E-82B9-4BB0-96D6-C0F462C89B57.ico" />
     <Image Include="bmp00001.bmp" />
     <Image Include="toolbar1.bmp" />
   </ItemGroup>
