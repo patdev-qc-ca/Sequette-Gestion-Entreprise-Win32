@@ -5,7 +5,7 @@ class CDbManager
 {
 public:
 	_ConnectionPtr m_pConn;
-	_CommandPtr m_pUpdateCmd; // Command prÃ©parÃ© et rÃ©utilisÃ©
+	_CommandPtr m_pUpdateCmd; // Command préparé et réutilisé
 
 	int m_pageIndex = 0;
 	int m_pageSize = 50;
@@ -59,4 +59,15 @@ public:
 	}
 };
 
-
+//bool InsertClients(const CString& name, int age) {
+//	try {
+//		CString sql;
+//		sql.Format(L"INSERT INTO Clients (Name, Age) VALUES ('%s', %d)", name, age);
+//		m_pConn->Execute((_bstr_t)sql, NULL, adExecuteNoRecords);
+//		return true;
+//	}
+//	catch (_com_error& e) {
+//		AfxMessageBox(CString(L"Erreur Insert: ") + e.ErrorMessage());
+//		return false;
+//	}
+//}
